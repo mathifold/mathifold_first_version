@@ -1,14 +1,41 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Mathifold
+email: mathifold@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Web para aprender matemáticas
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username: mathifold
 
 # Build settings
 markdown: kramdown
+
+permalink: /:categories/:title/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: post
+      type: posts
+  -
+    scope:
+      path: en
+    values:
+      lang: en
+  -
+    scope:
+      path: es
+    values:
+      lang: es
+  -
+    scope:
+      path: _posts/en
+    values:
+      lang: en
+  -
+    scope:
+      path: _posts/es
+    values:
+      lang: es

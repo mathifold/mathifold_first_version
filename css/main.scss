@@ -22,7 +22,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1000px;//800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -50,3 +50,7 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.en:lang(en), .es:lang(es) {
+    font-weight: bold;
+}

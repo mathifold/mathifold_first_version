@@ -5,10 +5,10 @@ layout: default
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
-
+  {% assign posts=site.posts | where:"lang", page.lang | where:"type", "posts" %}
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
+    {% for post in posts %}
+      <li class="lang">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>

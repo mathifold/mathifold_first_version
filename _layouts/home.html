@@ -1,0 +1,18 @@
+---
+layout: post
+---
+<div class="home">
+<ul class="list">
+{% for ct in site.data.navigation.blocks %}
+{% assign t = ct[page.lang] %}
+      <li>
+        <a href="{{ t.slug }}">
+			{{ t.text }}
+        </a>
+      </li>
+{% endfor %}
+    </ul>
+  </li>
+</ul>
+
+</div>

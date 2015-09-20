@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "Hola!"
+date:   2015-09-13 19:04:47
+categories:
+  - jekyll
+  - update
+  - algebra lineal
+name: hello
+---
+Tu entoncraras tus estnradas en el directorio `_posts`. Ve y edita y construye el sitio para ver tus cambios.
+Tu puedes reconstruir el sitio de diferentes maneras, pero la más común es con `jekyll serve`,
+el cual arranca un servidor web y auto-genera tu sitio cuando un fichero es modificado.
+
+Para añadir una nueva entradad, simplemente añade un fichero en el directorio `_posts` siguiendo el siguiente formato `YYYY-MM-DD-name-of-post.ext`
+e incluyendo el necesario `front matter`.
+Echale un vistazo al código de esta entrada para coger una idea de como funciona.
+
+Jekyll tambien ofrece un poderoso soporte para `code snippets`:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Consulta [Jekyll docs][jekyll] para más información sobre Jekyll.
+Peticiones de correcion o caracteristicas pedirse en [Jekyll’s GitHub repo][jekyll-gh].
+Si tienes alguna cuestión pregunta en [Jekyll’s dedicated Help repository][jekyll-help].
+
+$$
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$
+
+ej: $$a = b + 1$$
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
