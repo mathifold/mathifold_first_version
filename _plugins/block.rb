@@ -24,7 +24,9 @@ module Jekyll
       if site.layouts.key? 'block'
         site.data['navigation']['langs'].each do |lang|
           site.data['navigation']['blocks'].each do |block|
-               site.pages << BlockPage.new(site, site.source, block, lang)
+			  if !block[lang].nil?
+				   site.pages << BlockPage.new(site, site.source, block, lang)
+			  end
           end
         end
       end

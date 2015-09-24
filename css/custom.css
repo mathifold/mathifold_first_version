@@ -12,11 +12,11 @@ header.site-header nav ul li.home {
     font-size: 26px;
     line-height: 56px;
 }
- 
-header.site-header nav ul li:before {
+
+header.site-header nav.breadcrumbs ul li:before {
 	content: "» ";
 }
-header.site-header nav ul li.home:before {
+header.site-header nav.breadcrumbs ul li.home:before {
 	content: "";
 }
 
@@ -25,9 +25,13 @@ header.site-header nav.breadcrumbs {
 }
 header.site-header nav.lang {
 	float:right;
+	margin-top: 5px;
 }
-header.site-header nav.lang a img {
-	max-height: 55px;
+header.site-header nav.lang img {
+	max-height: 25px;
+}
+header.site-header nav.lang li.sl, header.site-header nav.lang li.no {
+	display:none;
 }
 /*
 header.site-header nav.lang a.es {

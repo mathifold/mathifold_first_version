@@ -1,10 +1,10 @@
 <header class="site-header">
 
   <div class="wrapper">
-  
-  
+
+
     <!--a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a-->
-  
+
     <nav class="breadcrumbs">
 	<ul>
 		<li class="home"><a href="/{{ page.lang }}">{{ site.title }}</a></li>
@@ -18,7 +18,7 @@
 		<!--li class="active">{{ page.title }}</li-->
 	</ul>
 	</nav>
-	
+
 	<!--nav class="lang">
 		{% if page._id %}
 		{% if page.type == "posts" %}
@@ -42,7 +42,7 @@
 
 
     <nav class="lang">
-		
+
 		{% if page._id %}
 		{% if page.type == "posts" %}
 			{% assign array=site.posts | where:"_id", page._id %}
@@ -51,15 +51,22 @@
 		{% endif %}
 		{% endif %}
 
-		{% if array %}
+
 		<ul title="{{site.data.t[page.lang].otros}}">
-		{% for post in array %}
-		  {% if post.lang != page.lang %}
-			<a href="{{post.url}}" lang="{{post.lang}}" hreflang="{{post.lang}}" class="{{ post.lang }}" title="{{site.data.t[post.lang].lang}}"><img alt="{{site.data.t[post.lang].lang}}" title="{{site.data.t[post.lang].lang}}" src="/img/lang/{{post.lang}}.png"/></a>
-		  {% endif %}
+		{% for l in site.data.navigation.langs %}
+			{% if page.lang == l %}
+				<li class="sl"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/img/lang/{{l}}.png"/></li>
+			{% else %}
+				{% assign aux=array | where:"lang", l %}
+				{% if aux[0] %}
+					<li><a href="{{aux[0].url}}" lang="{{l}}" hreflang="{{l}}" title="{{site.data.t[l].lang}}"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/img/lang/{{l}}.png"/></a></li>
+				{% else %}
+					<li class="no"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/img/lang/{{l}}.png"/></li>
+				{% endif %}
+			{% endif %}
 		{% endfor %}
-		{% endif %}
 		</ul>
+
 
     </nav>
 
