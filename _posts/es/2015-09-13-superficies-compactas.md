@@ -9,7 +9,7 @@ Una superficie es una variedad de dimensión 2. Como ejemplos tenemos:
 * La esfera <span>$$S^2=\{(x,y,z)\in \mathbb{R}^3 \, | \,x^2+y^2+z^2=1\}$$</span>
 * El toro <span>$$T^2=\{(x,y,z)\in \mathbb{R}^3 \, | \, (\sqrt{x^2+y^2}-2)^2+z^2=1\}$$</span>
 
-![ipe1](/img/ipe/1.png)
+![ipe01](/img/ipe/01.png)
 
 De hecho, siempre que tenemos una ecuación regular $$S=\{(x,y,z) \, | \, F(x,y,z)=0\}$$ en $$\mathbb{R}^3$$
 obtenemos una superficie.
@@ -18,17 +18,17 @@ La condición de ser regular es que $$\nabla F(x,y,z) \neq 0$$, $$\forall (x,y,z
 Dadas dos superficies $$M_1$$ y $$M_2$$, podemos hacer su suma conexa: hacemos dos pequeños agujeros
 y unimos por los bordes. La denotaremos por $$M_1 \# M_2$$
 
-![ip2](/img/ipe/2.png)
+![ip02](/img/ipe/02.png)
 
 Por supuesto, ¡la suma conexa de dos superficies vuelve a ser una superficie!
 
-![ip3](/img/ipe/3.png)
+![ip03](/img/ipe/03.png)
 
 Así podemos construir toros dobles, triples... en general hablamos de toros de género $$g$$ (y los denotaremos
 por $$\Sigma_g$$)
 
 
-![ip4](/img/ipe/4.png)
+![ip04](/img/ipe/04.png)
 
 ¿Son estos todos los tipos de superficie que podemos tener? Lo vamos a analizar
 
@@ -37,22 +37,22 @@ Esto se puede conseguir, muchas veces, pegando los lados de diversos polígonos.
 
 Al pegar dos lados de un cuadrado con la misma orientación, obtenemos un cilindro
 
-![ip5](/img/ipe/5.png)
+![ip05](/img/ipe/05.png)
 
 Pero si cambiamos la orientación de uno de los lados, obtenemos una cinta de Möbius
 
-![ip6](/img/ipe/6.png)
+![ip06](/img/ipe/06.png)
 
 El cilindro y la cinta de Möbius no pueden ser la misma superficie, porque el cilindro tiene como
 borde dos círculos, mientras que la cinta de Möbius sólo tiene uno.
 
 Mediante el pegado de polígonos también se pueden crear superficies cerradas. Un ejemplo es el toro
 
-![ip7](/img/ipe/7.png)
+![ip07](/img/ipe/07.png)
 
 Y pronto encontramos una superficie más compleja: la botella de Klein
 
-![ip8](/img/ipe/8.png)
+![ip08](/img/ipe/08.png)
 
 ¡No se puede meter en el espacio sin que haya cruces! Pero no tiene bordes ni roturas,
 así que es una superficie cerrada en toda regla.
@@ -185,7 +185,7 @@ Y cuando tenemos un polígono, ¿cómo es el pegado? Bueno, pues los lados se de
 algún lado sin pareja, esto nos daría un borde en la superficie, y si quisiéramos pegar más de dos lados a la
 vez, pues nos quedaría algo como
 
-![ipe9](/img/ipe/9.png)
+![ipe09](/img/ipe/09.png)
 
 ¡Esto no es una superficie!
 
