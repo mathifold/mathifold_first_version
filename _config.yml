@@ -10,6 +10,13 @@ github_username: mathifold
 # Build settings
 markdown: kramdown
 
+exclude: ['node_modules', '_pages']
+#include: ['_pages']
+
+kramdown:
+  math_engine_opts:
+    preview: true
+
 permalink: /:categories/:title/
 
 defaults:

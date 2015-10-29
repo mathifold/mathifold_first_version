@@ -2,66 +2,34 @@
 
   <div class="wrapper">
 
-
     <!--a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a-->
 
     <nav class="breadcrumbs">
-	<ul>
-		<li class="home"><a href="/{{ page.lang }}">{{ site.title }}</a></li>
-		{% if page.type == "posts" %}
-		{% assign ct=site.data.navigation.blocks | where:"id", page.categories[0] %}
-		{% if ct %}
-			{% assign c=ct[0][page.lang] %}
-			<li><a href="/{{page.lang}}/{{ c.slug }}">{{ c.text }}</a></li>
-		{% endif %}
-		{% endif %}
-		<!--li class="active">{{ page.title }}</li-->
-	</ul>
+		<ul>
+			{% if page.ancestors.size == 0 %}
+					<li class="home">{{ site.title }}</li>
+			{% else %}
+				{% for p in page.ancestors %}
+					<li class="{{ p.class }}"><a href="{{ p.dir }}">{{ p.title }}</a></li>
+				{% endfor %}
+			{% endif %}
+		</ul>
 	</nav>
-
-	<!--nav class="lang">
-		{% if page._id %}
-		{% if page.type == "posts" %}
-			{% assign array=site.posts | where:"_id", page._id %}
-		{% elsif page.type == "pages" %}
-			{% assign array=site.pages | where:"_id", page._id %}
-		{% endif %}
-		{% endif %}
-
-		{% if array %}
-		<select name="lang">
-			<option disabled="disabbled">{{site.data.t[page.lang].otros}}</option>
-		{% for post in array %}
-		  {% if post.lang != page.lang %}
-			<option value="{{post.url}}">{{site.data.t[post.lang].lang}}</option>
-		  {% endif %}
-		{% endfor %}
-		</select>
-		{% endif %}
-	</nav-->
-
 
     <nav class="lang">
 
-		{% if page._id %}
-		{% if page.type == "posts" %}
-			{% assign array=site.posts | where:"_id", page._id %}
-		{% elsif page.type == "pages" %}
-			{% assign array=site.pages | where:"_id", page._id %}
-		{% endif %}
-		{% endif %}
-
+		{% assign array=page.translations %}
 
 		<ul title="{{site.data.t[page.lang].otros}}">
-		{% for l in site.data.navigation.langs %}
+		{% for l in site.data.nav.langs %}
 			{% if page.lang == l %}
-				<li class="sl"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/img/lang/{{l}}.png"/></li>
+				<li class="sl"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/img/ico/lang/{{l}}.png"/></li>
 			{% else %}
 				{% assign aux=array | where:"lang", l %}
 				{% if aux[0] %}
-					<li><a href="{{aux[0].url}}" lang="{{l}}" hreflang="{{l}}" title="{{site.data.t[l].lang}}"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/img/lang/{{l}}.png"/></a></li>
+					<li><a href="{{aux[0].url}}" lang="{{l}}" hreflang="{{l}}" title="{{site.data.t[l].lang}}"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/img/ico/lang/{{l}}.png"/></a></li>
 				{% else %}
-					<li class="no"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/img/lang/{{l}}.png"/></li>
+					<li class="no"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/img/ico/lang/{{l}}.png"/></li>
 				{% endif %}
 			{% endif %}
 		{% endfor %}

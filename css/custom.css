@@ -6,7 +6,7 @@ header.site-header nav ul {
 }
 header.site-header nav ul li{
 	display: inline;
-    font-size: 12px;
+    font-size: 14px;
 }
 header.site-header nav ul li.home {
     font-size: 26px;
@@ -42,11 +42,21 @@ header.site-header nav.lang a.en {
 
 }
 */
+header.site-header nav.breadcrumbs li.home {
+	background-image: url("/img/favicon.ico");
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    /*background-size: 16px auto;*/
+    padding-left: 40px;
+}
+header.site-header div.wrapper {
+	padding: 0px
+}
 
 article.post-content img {
 	display: block;
 	margin: auto;
-	width: 90%;
+	max-width: 90%;
 }
 
 .page-content {
@@ -56,4 +66,24 @@ article.post-content img {
 	border-radius: 20px;
 	padding-top: 25px;
 	background-color: white;
+}
+
+
+footer.site-footer div.footer-col-2 {
+	text-align: center;
+}
+footer.site-footer ul.social-media-list {
+	/*display: inline;*/
+	margin-left: 0px;
+	list-style:none;
+	margin-bottom: 0;
+}
+footer.site-footer ul.social-media-list li{
+	display: inline;
+}
+footer.site-footer ul.social-media-list img {
+	max-height: 32px;
+}
+header.site-header {
+    border-top: 5px solid black;
 }

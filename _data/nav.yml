@@ -1,0 +1,272 @@
+langs: [es,en]
+
+map:
+  -
+    es: MATEMÁTICAS BÁSICAS
+    en: BASIC MATH
+    layout: none
+    class: mb
+    childrens:
+      - 
+        es: Combinatoria
+        en: Combinatorics
+        class: comb
+      -
+        es: Números complejos
+        en: Complex numbers
+        class: numcomp
+      -
+        es: Trigonometría
+        en: Trigonometry
+        class: trigo
+  -
+    es: GEOMETRÍA
+    en: GEOMETRY
+    layout: none
+    class: geo
+    childrens:
+      -
+        es: Geometría clásica
+        en: Classical geometry
+        class: geocla
+      -
+        es: Cónicas
+        en: Conical
+        class: coni
+      -
+        es: Geometría afín y proyectiva
+        en: Affine and projective geometry
+        class: geoafin
+      -
+        es: Geometría esférica
+        en: Spherical geometry
+        class: geoesfe
+      -
+        es: La cuarta dimensión
+        en: The fourth dimension
+        class: cuartadim
+      -
+        es: Geometría hiperbólica
+        en: Hyperbolic geometry
+        class: geohiper
+      -
+        es: Topología
+        en: Topology
+        class: topo
+  -
+    es: ÁLGEBRA
+    en: ALGEBRA
+    layout: none
+    class: alge
+    childrens:
+      -
+        es: Álgebra lineal
+        en: Linear algebra
+        class: algelineal
+      -
+        es: Teoría de grupos
+        en: Group Theory
+        class: teogrup
+      -
+        es: Teoría de anillos y cuerpos conmutativos
+        en: Commutative ring theory and bodies
+        class: teoani
+      -
+        es: Teoría de Galois
+        en: Galois Theory
+        class: teogal
+      -
+        es: Álgebra conmutativa
+        en: Commutative algebra
+        class: algeconmu
+  -
+    es: ANÁLISIS
+    en: ANALYSIS
+    layout: none
+    class: an
+    childrens:
+      -
+        es: Análisis real
+        en: Real analysis
+        class: anreal
+      -
+        es: Cálculo diferencial
+        en: Diferential calculus
+        class: caldif
+      -
+        es: Cálculo integral
+        en: Integral calculus
+        class: calint
+      -
+        es: Análisis complejo
+        en: Complex analysis
+        class: ancomp
+      -
+        es: Teoría de la medida
+        en: Measure theory
+        class: teomed
+  -
+    es: PROBABILIDAD Y ESTADÍSTICA
+    en: PROBABILITY AND STATISTICS
+    layout: none
+    class: propesta
+    childrens:
+      -
+        es: Cálculo de probabilidad
+        en: Probability calculation
+        class: calprob
+      -
+        es: Inferencia estadística
+        en: Statistical inference
+        class: infesta
+      -
+        es: Procesos estocásticos
+        en: Stochastic processes
+        class: procesto
+      -
+        es: Modelos de regresión
+        en: Regression Models
+        class: modregre
+      -
+        es: Análisis multivariante
+        en: Multivariate analysis
+        class: anmulti
+  -
+    es: INVESTIGACIÓN OPERATIVA
+    en: OPERATIONAL RESEARCH
+    layout: none
+    class: invope
+    childrens:
+      -
+        es: Teoría de grafos
+        en: Graph theory
+        class: teograf
+      -
+        es: Análisis numérico
+        en: Numerical analysis
+        class: numan
+      -
+        es: Programación lineal
+        en: Linear programming
+        class: proglin
+      -
+        es: Programación entera
+        en: Integer programming
+        class: progent
+      -
+        es: Programación no lineal
+        en: Nonlinear programming
+        class: proglin
+      -
+        es: Optimización en redes
+        en: Network optimization
+        class: opred
+      -
+        es: Teoría de juegos
+        en: Game Theory
+        class: teojue
+  -
+    es: FUNDAMENTOS
+    en: FOUNDATIONS
+    layout: none
+    class: fun
+    childrens:
+      -
+        es: Teoría de conjuntos
+        en: Set theory
+        class: teocon
+      -
+        es: Lógica
+        en: Logic
+        class: log
+      -
+        es: Categorías
+        en: Categories
+        class: cat
+  -
+    es: MODELOS MATEMÁTICOS
+    en: MATHEMATICAL MODELS
+    layout: none
+    class: modmat
+    childrens:
+      -
+        es: Física
+        en: Physical
+        class: fis
+      -
+        es: Economía
+        en: Economy
+        class: eco
+  -
+    es: MATEMÁTICAS APLICADAS
+    en: APPLIED MATHEMATICS
+    layout: none
+    class: matapli
+    childrens:
+      -
+        es: Sistemas dinámicos
+        en: Dynamical Systems
+        class: sisdin
+      -
+        es: Ecuaciones diferenciales ordinarias
+        en: Ordinary Differential Equations
+        class: ecuadiford
+      -
+        es: Ecuaciones diferenciales
+        en: Differential equations
+        class: ecudif
+      -
+        es: Ecuaciones en derivadas parciales
+        en: Partial Differential Equations
+        class: ecuderi
+  -
+    es: MATEMÁTICAS PURAS I
+    en: PURE MATHEMATICS I
+    layout: none
+    class: matpur1
+    childrens:
+      -
+        es: Análisis funcional
+        en: Functional analysis
+        category: c4
+        class: anfun
+      -
+        es: Topología algebraica
+        en: Algebraic topology
+        category: c1
+        class: topalg
+      -
+        es: Variedades diferenciables
+        en: Manifolds
+        category: c2
+        class: vardif
+      -
+        es: Geometría Riemanniana
+        en: Riemannian geometry
+        class: georie
+  -
+    es: MATEMÁTICAS PURAS II
+    en: PURE MATHEMATICS II
+    layout: none
+    class: matpur2
+    childrens:
+      -
+        es: Variedades complejas
+        en: Complex manifolds
+        class: varcomp
+      -
+        es: Teoría de Lie
+        en: Lie Theory
+        class: teolie
+      -
+        es: Fibrados
+        en: Bundles
+        class: fib
+      -
+        es: Teoría de haces
+        en: Beam theory
+        class: teohaces
+      -
+        es: Orbifolds
+        en: Orbifolds
+        class: orbi
