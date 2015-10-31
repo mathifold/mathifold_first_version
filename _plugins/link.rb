@@ -4,17 +4,17 @@ module Jekyll
         priority :low
 
         def generate(site)
-            site.posts.each do |item|
-            	a=item.parent
+            site.posts.each do |p|
+            	a=p.parent
             	if a and a.dir
-            		item.data['permalink'] = '/' + item.data['lang'] + '/' + a.dir.split("/")[-1] + '/' + item.slug
+            		p.data['permalink'] = '/' + p.data['lang'] + '/' + a.dir.split("/")[-1] + '/' + p.slug
             	else
-                	item.data['permalink'] = '/' + item.data['lang'] + '/' + item.slug
+                	p.data['permalink'] = '/' + p.data['lang'] + '/' + p.slug
             	end
             end
-            site.pages.each do |item|
-            	if not item.data['permalink'] and item.path.start_with?("_pages/")
-            		n=item.path
+            site.pages.each do |p|
+            	if not p.data['permalink'] and p.path.start_with?("_pages/")
+            		n=p.path
             		n.slice!(0..5)
             		i=n
 
@@ -23,13 +23,19 @@ module Jekyll
             		n=n.gsub(/ +/,"-")
             		n=n.sub(/\.[a-zA-Z]+$/,".html")
 
-            		item.data['permalink'] = n
+            		p.data['permalink'] = n
 
             		i=i.gsub(/\/index[^\/]+$/,'')
             		i=i.gsub(/(\/\d+)-[^\/]+/,'\1')
             	end
-            	#if item.data['permalink']
-            	#	item.data['permalink'].gsub!(/\/index.html$/,"")
+            	#if p.data['permalink']
+            	#	p.data['permalink'].gsub!(/\/index.html$/,"")
+            	#end
+            	#if not p.data['permalink'] and p.name == "index.html"
+            	#	p.data['permalink'] = p.dir
+            	#end
+            	#if p.data['permalink'] and p.data['permalink'].end_with?("/")
+            	#	p.data['permalink'].chomp!("/")
             	#end
             end
         end

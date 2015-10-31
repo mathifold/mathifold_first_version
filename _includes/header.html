@@ -10,7 +10,7 @@
 					<li class="home">{{ site.title }}</li>
 			{% else %}
 				{% for p in page.ancestors %}
-					<li class="{{ p.class }}"><a href="{{ p.dir }}">{{ p.title }}</a></li>
+					<li class="{{ p.class }}"><a href="{{ p.cleanurl }}">{{ p.title }}</a></li>
 				{% endfor %}
 			{% endif %}
 		</ul>
@@ -27,7 +27,7 @@
 			{% else %}
 				{% assign aux=array | where:"lang", l %}
 				{% if aux[0] %}
-					<li><a href="{{aux[0].url}}" lang="{{l}}" hreflang="{{l}}" title="{{site.data.t[l].lang}}"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/img/ico/lang/{{l}}.png"/></a></li>
+					<li><a href="{{aux[0].cleanurl}}" lang="{{l}}" hreflang="{{l}}" title="{{site.data.t[l].lang}}"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/img/ico/lang/{{l}}.png"/></a></li>
 				{% else %}
 					<li class="no"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/img/ico/lang/{{l}}.png"/></li>
 				{% endif %}

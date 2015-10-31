@@ -1,7 +1,7 @@
 ---
 title:  "Compact surfaces"
 categories: c1
-_id: compactsurfaces
+langid: compactsurfaces
 mathjax: true
 ---
 Una superficie es una variedad de dimensión 2. Como ejemplos tenemos:

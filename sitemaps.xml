@@ -4,16 +4,19 @@ permalink: /sitemaps.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  {% for post in site.posts %}
-  <url>
-    <loc>http://domain.tld{{ post.url }}</loc>
-    {% assign versions=site.posts|where:"name",post.name %}
-    {% for version in versions %}
-      <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="http://domain.tld{{ version.url }}" />
-    {% endfor %}
-    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  {% endfor %}
+	<!-- post -->{% for p in site.posts %}
+	<url>
+		<loc>{{p.cleanurl | prepend: site.baseurl | prepend: site.url}}</loc>{% if p.lang %}{% assign ts=p.translations %}{% for t in ts %}
+		<xhtml:link rel="alternate" hreflang="{{ t.lang }}" href="{{t.cleanurl | prepend: site.baseurl | prepend: site.url}}" />{% endfor %}{% endif %}
+		<lastmod>{{ p.date | date_to_xmlschema }}</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>{% endfor %}
+	<!-- pages -->{% for p in site.html_pages %}
+	<url>
+		<loc>{{p.cleanurl | prepend: site.baseurl | prepend: site.url}}</loc>{% if p.lang %}{% assign ts=p.translations %}{% for t in ts %}
+		<xhtml:link rel="alternate" hreflang="{{ t.lang }}" href="{{t.cleanurl | prepend: site.baseurl | prepend: site.url}}" />{% endfor %}{% endif %}{% if p.date %}
+		<lastmod>{{ p.date | date_to_xmlschema }}</lastmod>{% endif %}
+		<changefreq>weekly</changefreq>
+	</url>{% endfor %}
 </urlset>
 

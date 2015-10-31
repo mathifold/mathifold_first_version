@@ -1,7 +1,7 @@
 ---
 title:  "Espacios funcionales usuales"
 categories: c4
-_id: usualfunction
+langid: usualfunction
 mathjax: true
 ---
 a) Para toda función $$u\in C^\infty_0(\mathbb{R} ^n)$$, se cumple la desigualdad

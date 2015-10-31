@@ -52,10 +52,13 @@ module Jekyll
 		def parent
 			get_parent(self)
 		end
+		def cleanurl
+			return self.url.gsub(/\/(index\.html)?$/,"")
+		end
 
 		def to_liquid(attrs = ATTRIBUTES_FOR_LIQUID)
 			super(attrs + %w[
-				ancestors translations parent
+				ancestors translations parent cleanurl
 			])
 			#siblings childrens
 		end
@@ -108,10 +111,13 @@ module Jekyll
 			end
 			return self.data['parent']
 		end
+		def cleanurl
+			return self.data['permalink'].gsub(/\/(index\.html)?$/,"")
+		end
 
 		def to_liquid(attrs = ATTRIBUTES_FOR_LIQUID)
 			super(attrs + %w[
-				ancestors translations parent
+				ancestors translations parent cleanurl
 			])
 			#siblings
 		end
@@ -180,13 +186,13 @@ end
 ##
 # Returns list 
 def get_translations(me,col)
-	if not me.data.key? '_id'
+	if not me.data.key? 'langid'
 		return []
 	end
-	i=me.data['_id']
+	i=me.data['langid']
 	a = []
 	col.each do |p|
-		if p.data.key? '_id' and p.data['_id']=i
+		if p.data.key? 'langid' and p.data['langid']==i
 			a << p
 		end
 	end

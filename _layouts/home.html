@@ -15,7 +15,7 @@ layout: default
 {% assign t1 = ct1.pages | where:"lang", page.lang %}
       <li class="{{ ct1.class }}">
 		{% if t1.size == 1  %}
-		    <a href="{{ t1[0].dir }}">
+		    <a href="{{ t1[0].cleanurl }}">
 				{{ t1[0].title }}
 		    </a>
 		{% else %}
@@ -28,7 +28,7 @@ layout: default
 			{% assign t2 = ct2.pages | where:"lang", page.lang %}
 				  <li class="{{ ct2.class }}">
 					{% if t2.size == 1  %}
-						<a href="{{ t2[0].dir }}">
+						<a href="{{ t2[0].cleanurl }}">
 							{{ t2[0].title }}
 						</a>
 					{% else %}

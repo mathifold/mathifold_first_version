@@ -10,24 +10,16 @@
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.cleanurl | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
-{% if page._id %}
-	{% if page.type == "posts" %}
-	{% assign array=site.posts | where:"_id", page._id %}
-	{% elsif page.type == "pages" %}
-	{% assign array=site.pages | where:"_id", page._id %}
-	{% endif %}
-{% endif %}
 
-{% if array %}
+{% assign array=page.translations %}
 {% for post in array %}
-  {% if post.lang != page.lang %}
-    <link rel="alternate" hreflang="{{post.lang}}" href="{{post.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url}}" />
+  {% if post.url != page.url %}
+    <link rel="alternate" hreflang="{{post.lang}}" href="{{post.cleanurl | prepend: site.baseurl | prepend: site.url}}" />
   {% endif %}
 {% endfor %}
-{% endif %}
 
 {% if page.mathjax %}
   <!--script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=MML_HTMLorMML"></script-->

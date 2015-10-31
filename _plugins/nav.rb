@@ -2,25 +2,8 @@
 
 module Jekyll
 
-  class HomePage < Page
-    def initialize(site, lang)
-      @site = site
-      @base = site.source
-      @dir = lang
-      @name = 'index.html'
-
-      self.process(@name)
-      self.read_yaml(File.join(@base, '_layouts'), 'home.html')
-      self.data['lang'] = lang
-      self.data['title'] = (site.data['title'] or 'Mathifold')
-      self.data['_id'] = 'home'
-      self.data['type'] = 'pages'
-      self.data['class']='home'
-    end
-  end
-
   class NavPage < Page
-    def initialize(site, lang, title, dir, id, layout, cat, _class)
+    def initialize(site, lang, title, dir, langid, layout, _class, cat)
       @site = site
       @base = site.source
       @dir = dir
@@ -30,13 +13,16 @@ module Jekyll
       self.read_yaml(File.join(@base, '_layouts'), layout + ".html")
       self.data['lang'] = lang
       self.data['title'] = title
+      self.data['langid'] = langid
       self.data['type'] = 'pages'
-      self.data['_id'] = id
-      self.data['cat'] = cat
       self.data['class']=(_class or "none")
+      if cat
+      	self.data['cat'] = cat
+      end
+      #self.data['permalink'] = dir+"/"
+      #puts self.data['_id']+" "+self.data['title']
     end
   end
-
 
   class NavPageGenerator < Generator
     safe true
@@ -44,7 +30,7 @@ module Jekyll
     def generatechildrens(site,_nav, parent_id,parent_dirs,childrens)
       count=1
       childrens.each do |item|
-        _id=parent_id+"/"+count.to_s
+        _id=(parent_id+"_"+count.to_s)
         count=count+1
         layout = item['layout'] || "block"
         _dirs=parent_dirs
@@ -55,12 +41,9 @@ module Jekyll
 				title = item[lang]
 				_dir = File.join(parent_dirs[lang], to_slug(title))
         		_dirs[lang]=_dir
-        		_page=NavPage.new(site, lang, title, _dir, _id, layout, item['category'], item['class'])
+        		_page=NavPage.new(site, lang, title, _dir, _id, layout, item['class'], item['category'])
 				site.pages << _page
 				item['pages'] << _page
-				if item.key? 'category'
-					(_nav['archives'][lang])[item['category']]=_page
-				end
 			end
 		end
 		if item.key? 'childrens'
@@ -71,12 +54,10 @@ module Jekyll
 
     def generate(site)
       _nav=site.data['nav']
-      _nav['archives']={}
       _dirs={}
       _nav['langs'].each do |lang|
-        site.pages << HomePage.new(site, lang)
+        site.pages << NavPage.new(site, lang, (site.data['title'] or 'Mathifold'),lang,'home','home','home',nil)
         _dirs[lang]=lang
-         _nav['archives'][lang]={}
       end
       generatechildrens(site,_nav,'home',_dirs,_nav['map'])
     end

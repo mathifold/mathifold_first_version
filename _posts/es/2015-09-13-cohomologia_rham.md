@@ -1,7 +1,7 @@
 ---
 title:  "Idea de la Cohomología de De Rham"
 categories: c2
-_id: rham
+langid: rham
 mathjax: true
 ---
 La cohomología nace como respuesta dual a la homología. La homología identifica la forma de un objeto topológico en la búsqueda de "agujeros". Más concretamente, busca <i>objetos sin frontera que no sean a su vez la frontera de algo</i> (y de ahí la definición $$H_k(M)=\text{ker }\partial_n/\text{im }\partial_{n+1}$$, con $$\partial$$ operador frontera).
