@@ -19,8 +19,6 @@ module Jekyll
       if cat
       	self.data['cat'] = cat
       end
-      #self.data['permalink'] = dir+"/"
-      #puts self.data['_id']+" "+self.data['title']
     end
   end
 

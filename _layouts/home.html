@@ -25,7 +25,7 @@ layout: default
 		{% if ct1.childrens.size > 0  %}
 		    <ul class="{{ ct1.class }}">
 			{% for ct2 in ct1.childrens %}
-			{% assign t2 = ct2.pages | where:"lang", page.lang %}
+				{% assign t2 = ct2.pages | where:"lang", page.lang %}
 				  <li class="{{ ct2.class }}">
 					{% if t2.size == 1  %}
 						<a href="{{ t2[0].cleanurl }}">

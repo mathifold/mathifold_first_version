@@ -4,7 +4,7 @@ email: mathifold@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Web para aprender matemáticas
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://mathifold.org" # the base hostname & protocol for your site
 github_username: mathifold
 
 # Build settings
