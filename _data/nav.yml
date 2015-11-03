@@ -2,8 +2,8 @@ langs: [es,en]
 
 map:
   -
-    es: MATEMÁTICAS BÁSICAS
-    en: BASIC MATH
+    es: Matemáticas básicas
+    en: Basics
     layout: none
     class: mb
     childrens:
@@ -20,8 +20,8 @@ map:
         en: Trigonometry
         class: trigo
   -
-    es: GEOMETRÍA
-    en: GEOMETRY
+    es: Geometría
+    en: Geometry
     layout: none
     class: geo
     childrens:
@@ -31,7 +31,7 @@ map:
         class: geocla
       -
         es: Cónicas
-        en: Conical
+        en: Conics
         class: coni
       -
         es: Geometría afín y proyectiva
@@ -50,12 +50,16 @@ map:
         en: Hyperbolic geometry
         class: geohiper
       -
+        es: Geometría fractal
+        en: Fractal geometry
+        class: geofractal
+      -
         es: Topología
         en: Topology
         class: topo
   -
-    es: ÁLGEBRA
-    en: ALGEBRA
+    es: Álgebra
+    en: Algebra
     layout: none
     class: alge
     childrens:
@@ -68,8 +72,8 @@ map:
         en: Group Theory
         class: teogrup
       -
-        es: Teoría de anillos y cuerpos conmutativos
-        en: Commutative ring theory and bodies
+        es: Teoría de anillos
+        en: Ring theory
         class: teoani
       -
         es: Teoría de Galois
@@ -80,8 +84,8 @@ map:
         en: Commutative algebra
         class: algeconmu
   -
-    es: ANÁLISIS
-    en: ANALYSIS
+    es: Análisis
+    en: Analysis
     layout: none
     class: an
     childrens:
@@ -91,7 +95,7 @@ map:
         class: anreal
       -
         es: Cálculo diferencial
-        en: Diferential calculus
+        en: Differential calculus
         class: caldif
       -
         es: Cálculo integral
@@ -106,8 +110,8 @@ map:
         en: Measure theory
         class: teomed
   -
-    es: PROBABILIDAD Y ESTADÍSTICA
-    en: PROBABILITY AND STATISTICS
+    es: Probabilidad y estadística
+    en: Probability and statistics
     layout: none
     class: propesta
     childrens:
@@ -132,8 +136,8 @@ map:
         en: Multivariate analysis
         class: anmulti
   -
-    es: INVESTIGACIÓN OPERATIVA
-    en: OPERATIONAL RESEARCH
+    es: Investigación operativa
+    en: Operational research
     layout: none
     class: invope
     childrens:
@@ -166,8 +170,8 @@ map:
         en: Game Theory
         class: teojue
   -
-    es: FUNDAMENTOS
-    en: FOUNDATIONS
+    es: Fundamentos
+    en: Foundations
     layout: none
     class: fun
     childrens:
@@ -184,22 +188,22 @@ map:
         en: Categories
         class: cat
   -
-    es: MODELOS MATEMÁTICOS
-    en: MATHEMATICAL MODELS
+    es: Modelos matemáticos
+    en: Mathematical models
     layout: none
     class: modmat
     childrens:
       -
         es: Física
-        en: Physical
+        en: Physics
         class: fis
       -
         es: Economía
         en: Economy
         class: eco
   -
-    es: MATEMÁTICAS APLICADAS
-    en: APPLIED MATHEMATICS
+    es: Matemáticas aplicadas
+    en: Applied mathematics
     layout: none
     class: matapli
     childrens:
@@ -220,8 +224,8 @@ map:
         en: Partial Differential Equations
         class: ecuderi
   -
-    es: MATEMÁTICAS PURAS I
-    en: PURE MATHEMATICS I
+    es: Matemáticas puras I
+    en: Pure mathematics I
     layout: none
     class: matpur1
     childrens:
@@ -236,7 +240,7 @@ map:
         category: c1
         class: topalg
       -
-        es: Variedades diferenciables
+        es: Variedades
         en: Manifolds
         category: c2
         class: vardif
@@ -245,8 +249,8 @@ map:
         en: Riemannian geometry
         class: georie
   -
-    es: MATEMÁTICAS PURAS II
-    en: PURE MATHEMATICS II
+    es: Matemáticas puras II
+    en: Pure mathematics
     layout: none
     class: matpur2
     childrens:
@@ -264,7 +268,7 @@ map:
         class: fib
       -
         es: Teoría de haces
-        en: Beam theory
+        en: Sheaf theory
         class: teohaces
       -
         es: Orbifolds
