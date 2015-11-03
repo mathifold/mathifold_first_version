@@ -2,6 +2,17 @@
 # Monkey patch Jekyll's Page and Post classes.
 module Jekyll
 	class Site
+		def get_resources
+			if not self.data['_resources']
+				self.data['_resources']=[]
+				self.static_files.each do |r|
+					if r.extname =~ /^\.(svg|png|jpeg|jpg|gif|mp4)$/
+						self.data['_resources'] << r
+					end
+				end
+			end
+			return self.data['_resources']
+		end
 		def get_from_lang(col,hash,lang)
 			if not lang
 				return col

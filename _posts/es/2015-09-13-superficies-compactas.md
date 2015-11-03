@@ -9,7 +9,7 @@ Una superficie es una variedad de dimensión 2. Como ejemplos tenemos:
 * La esfera <span>$$S^2=\{(x,y,z)\in \mathbb{R}^3 \, | \,x^2+y^2+z^2=1\}$$</span>
 * El toro <span>$$T^2=\{(x,y,z)\in \mathbb{R}^3 \, | \, (\sqrt{x^2+y^2}-2)^2+z^2=1\}$$</span>
 
-![ipe01](/img/ipe/01.png)
+{% resource 01.png %}
 
 De hecho, siempre que tenemos una ecuación regular $$S=\{(x,y,z) \, | \, F(x,y,z)=0\}$$ en $$\mathbb{R}^3$$
 obtenemos una superficie.
