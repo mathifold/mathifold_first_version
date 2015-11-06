@@ -4,9 +4,13 @@ module Jekyll
 	class Site
 		def get_resources
 			if not self.data['_resources']
+				self.data['_ori']=[]
 				self.data['_resources']=[]
 				self.static_files.each do |r|
-					if r.extname =~ /^\.(svg|png|jpeg|jpg|gif|mp4)$/
+    				url = r.path.sub(self.source,"")
+					if url =~ /^\/rec\/ori\/.*/
+						self.data['_ori'] << r
+					elsif r.extname =~ /^\.(svg|png|jpeg|jpg|gif|mp4)$/
 						self.data['_resources'] << r
 					end
 				end

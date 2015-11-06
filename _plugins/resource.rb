@@ -1,20 +1,29 @@
 module Jekyll
   class Resource < Liquid::Tag
     def get_file(site)
+    	if not site.data['resources'].key? @text
+    		site.data['resources'][@text]={}
+    	end
     	r=site.data['resources'][@text]
-    	if r and r['file']
-    		return r['file'], r
+    	if r.key? 'file'
+    		return r
     	end
     	s='/'+@text
+    	name=s.sub(/\.[^\.]+$/,"")
     	site.get_resources.each do |f|
     		if f.path.end_with?(s)
-				if r
-					r['file'] = f
-				end
-    			return f, r
+				r['file'] = f
+				break
     		end
     	end
-    	return nil
+    	site.data['_ori'].each do |f|
+    		n=f.path.sub(/\.[^\.]+$/,"")
+    		if n.end_with?(name)
+				r['ori'] = f
+				break
+    		end
+    	end
+    	return r
     end
     
     def get_field(hash,field)
@@ -56,22 +65,30 @@ module Jekyll
     def render(context)
     	site = context.registers[:site]
     	page = context.registers[:page]
-    	f, r=get_file(site)
-    	if f.nil?
+    	r=get_file(site)
+    	if r.nil?
     		return "<p>#{@text} not found!!</p>"
     	end
+    	f=r['file']
+    	o=r['ori']
     	url = f.path.sub(site.source,"")
     	
     	att,foot=get_attr(r,page['lang'])
 
+		html=""
     	if f.extname =~ /^\.(svg|png|jpeg|jpg|gif)$/
-    		return "<img src=\"#{url}\" id=\"#{@text}\" "+att+"/>"
+    		html="<div class=\"resource img\"><img src=\"#{url}\" id=\"#{@text}\" "+att+"/>"
+    	elsif f.extname =~ /^\.(mp4)$/
+    		ext = f.extname[1..-1]
+    		html="<div class=\"resource vid\"><video controls id=\"#{@text}\" "+att+"><source src=\"#{url}\" type=\"video/#{ext}\"></video>"
+    	else
+    		return "#{@text} is not a resource"
     	end
-    	if f.extname =~ /^\.(mp4)$/
-    		r = f.extname[1..-1]
-    		return "<video width=\"900\" controls id=\"#{@text}\" "+att+"><source src=\"#{url}\" type=\"video/#{r}\"></video>"
+    	if o
+    		url = o.path.sub(site.source,"")
+    		html=html+"<a href=\""+url+"\" class=\"ori\"><span>"+site.data['t'][page['lang']]['fuente_img']+"</span></a>"
     	end
-    	return "#{@text} is not a resource"
+    	return html+"</div>"
     end
   end
 end

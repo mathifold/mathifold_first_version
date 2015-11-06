@@ -53,10 +53,47 @@ header.site-header div.wrapper {
 	padding: 0px
 }
 
-article.post-content img {
-	display: block;
-	margin: auto;
+article.post-content .resource { /* img */
+	margin-bottom: 15px;
+	position: relative;
+	text-align: center;
+}
+article.post-content .resource img, article.post-content .resource video {
 	max-width: 90%;
+}
+article.post-content .resource a.ori {
+    bottom: 0;
+    position: absolute;
+    right: 0px;
+    white-space: nowrap;
+    background-color: white;
+    font-size: 90%;
+}
+article.post-content .resource a.ori {
+    background-image: url("/rec/img/ico/social/opensource.svg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 25px auto;
+    text-align: left;
+    text-decoration: none;
+}
+article.post-content .resource a.ori {
+    overflow: hidden;
+    padding-left: 25px;
+    width: 0;
+}
+article.post-content .resource a.ori:hover {
+	overflow: visible;
+    padding-left: 0px;
+    width: auto;
+}
+
+article.post-content .resource a.ori span {
+    border: 1px dotted black;
+    display: block;
+    margin-right: 30px;
+    padding: 5px;
+    text-align: center;
 }
 
 .page-content {
@@ -67,7 +104,6 @@ article.post-content img {
 	padding-top: 25px;
 	background-color: white;
 }
-
 
 footer.site-footer div.footer-col-2 {
 	text-align: center;
@@ -87,3 +123,13 @@ footer.site-footer ul.social-media-list img {
 header.site-header {
     border-top: 5px solid black;
 }
+
+/*
+<div class="resource img">
+  <div style="position: relative; margin: auto; display: block; text-align: center;">
+  <img style="width: 512px;" src="/rec/img/ipe/04.png" id="04.png"><span class="ori" style="position: absolute; background-color: black; width: 18px; text-align: center; bottom: 0px; right: -25px;"><a href="/rec/ori/04.pov">C</a></span>
+  </div>
+
+</div>
+
+*/
