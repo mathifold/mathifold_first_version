@@ -3,22 +3,22 @@ social:
     key: contacto
     url: "mailto:mathifold@gmail.com"
     class: contact
-    ico: "/img/ico/social/mail.png"
+    ico: "/rec/img/ico/social/mail.png"
   -
     key: Youtube
     url: "https://www.youtube.com/channel/UCXX6SDV-XYDRfUI4_0gd6Lw"
     class: youtube
-    ico: "/img/ico/social/youtube.png"
+    ico: "/rec/img/ico/social/youtube.png"
   -
     key: codigo
     url: "https://github.com/mathifold"
     class: github
-    ico: "/img/ico/social/github.png"
+    ico: "/rec/img/ico/social/github.png"
   -
     key: Google +
     url: "https://plus.google.com/+MathifoldProjectMaths/"
     class: googleplus
-    ico: "/img/ico/social/googleplus.png"
+    ico: "/rec/img/ico/social/googleplus.png"
 
 #  -
 #    key: Math Stackexchange
