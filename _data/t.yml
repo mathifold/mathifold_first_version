@@ -4,6 +4,7 @@ es:
   migas: Migas de pan
   contacto: Contacto
   codigo: Código fuente
+  fuente_img: Descarga el código<br/>fuente de la imagen
 
 en:
   lang: English
@@ -11,4 +12,5 @@ en:
   migas: Breadcrumbs
   contacto: Contact
   codigo: Source code
+  fuente_img: Download the source<br/>code of the image
 
