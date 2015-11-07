@@ -3,49 +3,42 @@ layout: default
 ---
 <div class="post">
 
-  <!--header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header-->
-
-  <article class="post-content">
+<article class="post-content">
   
 <div class="home">
 <ul class="list">
 {% for ct1 in site.data.nav.map %}
 {% assign t1 = ct1.pages | where:"lang", page.lang %}
-      <li class="{{ ct1.class }}">
-		{% if t1.size == 1  %}
-		    <a href="{{ t1[0].cleanurl }}">
-				{{ t1[0].title }}
-		    </a>
-		{% else %}
-			{{ ct1[page.lang] }}
-		{% endif %}
-		
-		{% if ct1.childrens.size > 0  %}
-		    <ul class="{{ ct1.class }}">
-			{% for ct2 in ct1.childrens %}
-				{% assign t2 = ct2.pages | where:"lang", page.lang %}
-				  <li class="{{ ct2.class }}">
-					{% if t2.size == 1  %}
-						<a href="{{ t2[0].cleanurl }}">
-							{{ t2[0].title }}
-						</a>
-					{% else %}
-						{{ ct2[page.lang] }}
-					{% endif %}
-				  </li>
-			{% endfor %}
-		    </ul>
-		{% endif %}
-      </li>
-{% endfor %}
-    </ul>
+  <li class="{{ ct1.class }}">
+	{% if t1.size == 1  %}
+	    <a href="{{ t1[0].cleanurl }}">
+			{{ t1[0].title }}
+	    </a>
+	{% else %}
+		{{ ct1[page.lang] }}
+	{% endif %}
+	
+	{% if ct1.childrens.size > 0  %}
+	    <ul class="{{ ct1.class }}">
+		{% for ct2 in ct1.childrens %}
+			{% assign t2 = ct2.pages | where:"lang", page.lang %}
+			  <li class="{{ ct2.class }}">
+				{% if t2.size == 1  %}
+					<a href="{{ t2[0].cleanurl }}">
+						{{ t2[0].title }}
+					</a>
+				{% else %}
+					{{ ct2[page.lang] }}
+				{% endif %}
+			  </li>
+		{% endfor %}
+	    </ul>
+	{% endif %}
   </li>
+{% endfor %}
 </ul>
-
 </div>
 
-  </article>
+</article>
 
 </div>

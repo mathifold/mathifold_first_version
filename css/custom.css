@@ -43,7 +43,7 @@ header.site-header nav.lang a.en {
 }
 */
 header.site-header nav.breadcrumbs li.home {
-	background-image: url("/img/favicon.ico");
+	background-image: url("/rec/img/favicon.ico");
     background-origin: padding-box;
     background-repeat: no-repeat;
     /*background-size: 16px auto;*/
@@ -100,7 +100,7 @@ article.post-content .resource a.ori span {
 	background-color: black;
 }
 .page-content .wrapper {
-	border-radius: 20px;
+	border-radius: 20px; /* TODO: eliminar en resoluciones pequeás */
 	padding-top: 25px;
 	background-color: white;
 }
@@ -124,12 +124,14 @@ header.site-header {
     border-top: 5px solid black;
 }
 
-/*
-<div class="resource img">
-  <div style="position: relative; margin: auto; display: block; text-align: center;">
-  <img style="width: 512px;" src="/rec/img/ipe/04.png" id="04.png"><span class="ori" style="position: absolute; background-color: black; width: 18px; text-align: center; bottom: 0px; right: -25px;"><a href="/rec/ori/04.pov">C</a></span>
-  </div>
+.grey {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
 
-</div>
-
-*/
+/* Disable grayscale on hover */
+.grey:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}

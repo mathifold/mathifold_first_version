@@ -18,7 +18,7 @@
 				{% assign txt=site.data.t[page.lang][s.key] %}
 			{% endif %}
 			<li class="{{s.class}}">
-				<a href="{{s.url}}" target="_blank"><img src="{{s.ico}}" alt="{{ txt }}" title="{{ txt }}"/></a>
+				<a href="{{s.url}}" target="_blank"><img class="grey" src="{{s.ico}}" alt="{{ txt }}" title="{{ txt }}"/></a>
 			</li>
 		{% endfor %}
         </ul>

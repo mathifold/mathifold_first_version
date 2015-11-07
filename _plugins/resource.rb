@@ -86,7 +86,7 @@ module Jekyll
     	end
     	if o
     		url = o.path.sub(site.source,"")
-    		html=html+"<a href=\""+url+"\" class=\"ori\"><span>"+site.data['t'][page['lang']]['fuente_img']+"</span></a>"
+    		html=html+"<a href=\""+url+"\" class=\"ori grey\"><span>"+site.data['t'][page['lang']]['fuente_img']+"</span></a>"
     	end
     	return html+"</div>"
     end

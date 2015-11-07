@@ -13,7 +13,7 @@ social:
     key: codigo
     url: "https://github.com/mathifold"
     class: github
-    ico: "/rec/img/ico/social/github.png"
+    ico: "/rec/img/ico/social/github_a.png"
   -
     key: Google +
     url: "https://plus.google.com/+MathifoldProjectMaths/"
