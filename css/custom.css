@@ -53,6 +53,9 @@ header.site-header div.wrapper {
 	padding: 0px
 }
 
+article.post-content li {
+	margin-bottom: 8px;
+}
 article.post-content .resource { /* img */
 	margin-bottom: 15px;
 	position: relative;
@@ -60,6 +63,7 @@ article.post-content .resource { /* img */
 }
 article.post-content .resource img, article.post-content .resource video {
 	max-width: 90%;
+	max-height: 300px;
 }
 article.post-content .resource a.ori {
     bottom: 0;
