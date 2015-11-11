@@ -40,9 +40,9 @@ su alt, title, etc.
 Finalmente, para incluir una imagen o video en un post se usa el tag
 resource de la siguiente manera:
 
-´´´liquid
+```liquid
 {% resource XX.yyy %}
-´´´
+```
 
 Donde XX.yyy es el nombre de la imagen o video.
 
