@@ -4,7 +4,6 @@ map:
   -
     es: Matemáticas básicas
     en: Basics
-    layout: none
     class: mb
     childrens:
       - 
@@ -22,7 +21,6 @@ map:
   -
     es: Geometría
     en: Geometry
-    layout: none
     class: geo
     childrens:
       -
@@ -60,7 +58,6 @@ map:
   -
     es: Álgebra
     en: Algebra
-    layout: none
     class: alge
     childrens:
       -
@@ -86,7 +83,6 @@ map:
   -
     es: Análisis
     en: Analysis
-    layout: none
     class: an
     childrens:
       -
@@ -112,7 +108,6 @@ map:
   -
     es: Probabilidad y estadística
     en: Probability and statistics
-    layout: none
     class: propesta
     childrens:
       -
@@ -138,7 +133,6 @@ map:
   -
     es: Investigación operativa
     en: Operational research
-    layout: none
     class: invope
     childrens:
       -
@@ -172,7 +166,6 @@ map:
   -
     es: Fundamentos
     en: Foundations
-    layout: none
     class: fun
     childrens:
       -
@@ -190,7 +183,6 @@ map:
   -
     es: Modelos matemáticos
     en: Mathematical models
-    layout: none
     class: modmat
     childrens:
       -
@@ -204,7 +196,6 @@ map:
   -
     es: Matemáticas aplicadas
     en: Applied mathematics
-    layout: none
     class: matapli
     childrens:
       -
@@ -226,7 +217,6 @@ map:
   -
     es: Matemáticas puras I
     en: Pure mathematics I
-    layout: none
     class: matpur1
     childrens:
       -
@@ -251,7 +241,6 @@ map:
   -
     es: Matemáticas puras II
     en: Pure mathematics
-    layout: none
     class: matpur2
     childrens:
       -

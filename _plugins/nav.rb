@@ -30,9 +30,12 @@ module Jekyll
       childrens.each do |item|
         _id=(parent_id+"_"+count.to_s)
         count=count+1
-        layout = item['layout'] || "block"
+        layout = item['layout']
+        if not layout and item['category']
+        	layout="block"
+        end
         _dirs=parent_dirs
-        if layout != "none"
+        if layout
             _dirs={}
         	item['pages']=[]
 			_nav['langs'].each do |lang|
