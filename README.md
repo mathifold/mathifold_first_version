@@ -50,3 +50,12 @@ El tag, sirviendose de que XX.yyy es un nombre único, encontrara el
 fichero bajo `/rec/img/` o `/rec/vid/`, su código fuente bajo `/rec/ori/`
 si lo tiene, y la información adicional que pudiera haber en
 `/_data/resoruces.yml` y con todo ello incluira el recurso en la página.
+
+## Multiidioma
+
+Cada post o página multiidioma debe tener un campo `langid` cuyo valor
+comparte con todos los posts o páginas que son una tradución suya.
+
+De esta manera los iconos de idioma llevaran al post o página del idioma
+seleccionado que tenga el mismo `langid` del contenido que se este
+visualizando en ese momento.
