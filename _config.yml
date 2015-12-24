@@ -10,7 +10,7 @@ github_username: mathifold
 # Build settings
 markdown: kramdown
 
-exclude: ['node_modules', '_pages', 'README.md','_publish.sh','app.yaml']
+exclude: ['node_modules', '_pages', 'README.md','_publish.sh','app.yaml', 'docs']
 #include: ['_pages']
 
 kramdown:

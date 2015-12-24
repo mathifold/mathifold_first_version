@@ -1,5 +1,5 @@
 ---
-title:  "Espacios funcionales usuales"
+title: "Espacios funcionales usuales"
 categories: c4
 langid: usualfunction
 mathjax: true
