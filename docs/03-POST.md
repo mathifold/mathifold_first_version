@@ -61,10 +61,16 @@ Para todo lo demás hemos de conocer que:
 3. Las formulas latex han de incluirse entre dos símbolos de dolar (ej: `blablabla $$\dfrac{2}{3}$$ blabla`).
 En el muy poco probable caso de que mathjax no detecte la formular:
 	a) si es una formular `inline` envolverla en un \<span\>. Ej: `blablabla \<span\>$$\dfrac{2}{3}$$\</span\> blabla`).
-	b) si es una formula `block` envolver en un <\div\>. Ej: ```
+	b) si es una formula `block` envolver en un <\div\>. Ej:
+	
+```
+blablabla
+
 \<div\>
 $$\dfrac{2}{3}$$
 \</div\>
+
+blablabla
 ```
 
 ## Comprobar el post
