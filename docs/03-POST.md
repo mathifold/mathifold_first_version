@@ -60,15 +60,15 @@ Para todo lo demás hemos de conocer que:
 2. Podemos incluir fácilmente imágenes y vídeos usando el tag `resource` (ver *Imágenes y vídeos (recursos)* en *02-ESRUCTURA.md*)
 3. Las formulas latex han de incluirse entre dos símbolos de dolar (ej: `blablabla $$\dfrac{2}{3}$$ blabla`).
 En el muy poco probable caso de que mathjax no detecte la formular:
-	a) si es una formular `inline` envolverla en un \<span\>. Ej: `blablabla \<span\>$$\dfrac{2}{3}$$\</span\> blabla`).
+	a) si es una formular `inline` envolverla en un \<span\>. Ej: `blablabla <span>$$\dfrac{2}{3}$$\<span> blabla`).
 	b) si es una formula `block` envolver en un <\div\>. Ej:
 	
 ```
 blablabla
 
-\<div\>
+<div>
 $$\dfrac{2}{3}$$
-\</div\>
+</div>
 
 blablabla
 ```
