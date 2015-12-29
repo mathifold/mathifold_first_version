@@ -47,6 +47,17 @@ map:
         es: Geometría hiperbólica
         en: Hyperbolic geometry
         class: geohiper
+        childrens:
+          -
+            es: Transformaciones Hiperbólicas
+            en: Hyperbolic Transformations
+            class: hyptrans
+            childrens:
+              -
+                es: Rotación ideal
+                en: Ideal rotation
+                category: hypidrot_vid
+                class: hypidrot
       -
         es: Geometría fractal
         en: Fractal geometry
