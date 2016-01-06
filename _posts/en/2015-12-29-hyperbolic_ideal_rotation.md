@@ -1,6 +1,6 @@
 ---
 title:  "Ideal Rotation in Hyperbolic Plane"
-categories: geohiper
+categories: geohiper_trans
 langid: hypidrot_vid
 mathjax: false
 ---
