@@ -201,6 +201,12 @@ map:
         es: Física
         en: Physics
         class: fis
+        childrens:
+          -
+            es: Mecánica Cuántica
+            en: Quantum Mechanics
+            category: quant_mech
+            class: quant_mech
       -
         es: Economía
         en: Economy
