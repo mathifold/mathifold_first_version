@@ -1,6 +1,6 @@
 ---
 title:  "Rotación ideal en el Plano Hiperbólico"
-categories: geohiper
+categories: geohiper_trans
 langid: hypidrot_vid
 mathjax: false
 ---
