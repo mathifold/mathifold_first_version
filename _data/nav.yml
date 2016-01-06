@@ -47,6 +47,7 @@ map:
         es: Geometría hiperbólica
         en: Hyperbolic geometry
         class: geohiper
+        childrens:
           -
             es: Transformaciones hiperbólicas
             en: Hyperbolic transformations
@@ -256,6 +257,12 @@ map:
         es: Teoría de Lie
         en: Lie Theory
         class: teolie
+        childrens:
+          -
+            es: Sistemas de raíces
+            en: Root systems
+            category: root_systems
+            class: root_systems
       -
         es: Fibrados
         en: Bundles
