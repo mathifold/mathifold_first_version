@@ -27,6 +27,12 @@ map:
         es: Geometría clásica
         en: Classical geometry
         class: geocla
+        childrens:
+          -
+            es: Triángulos
+            en: Triangles
+            category: triangles
+            class: triangles
       -
         es: Cónicas
         en: Conics
