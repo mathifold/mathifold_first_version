@@ -46,8 +46,12 @@ map:
       -
         es: Geometría hiperbólica
         en: Hyperbolic geometry
-        category: geohiper
         class: geohiper
+          -
+            es: Transformaciones hiperbólicas
+            en: Hyperbolic transformations
+            category: geohiper_trans
+            class: geohiper_trans
       -
         es: Geometría fractal
         en: Fractal geometry
