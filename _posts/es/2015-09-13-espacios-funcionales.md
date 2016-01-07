@@ -1,6 +1,6 @@
 ---
 title: "Espacios funcionales usuales"
-categories: c4
+categories: function_spaces
 langid: usualfunction
 mathjax: true
 ---
