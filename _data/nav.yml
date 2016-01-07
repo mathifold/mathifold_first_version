@@ -240,8 +240,14 @@ map:
       -
         es: Análisis funcional
         en: Functional analysis
-        category: c4
+        category: functional_analysis
         class: anfun
+        childrens:
+          -
+            es: Espacios de Funciones
+            en: Function Spaces
+            category: function_spaces
+            class: funcspa
       -
         es: Topología algebraica
         en: Algebraic topology
