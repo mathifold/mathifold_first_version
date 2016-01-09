@@ -271,12 +271,11 @@ map:
         es: Teoría de Lie
         en: Lie Theory
         class: teolie
-        childrens:
-          -
-            es: Sistemas de raíces
-            en: Root systems
-            category: root_systems
-            class: root_systems
+      -
+        es: UP - Sistemas de raíces
+        en: UP - Root systems
+        category: root_systems
+        class: root_systems
       -
         es: Fibrados
         en: Bundles
