@@ -35,4 +35,31 @@
 	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
 
+{% if page.wolfram.size > 0 or page.geogebratube.size > 0 %}
+	<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+{% endif %}
+
+{% if page.wolfram.size > 0 %}
+	<script type='text/javascript' src='http://demonstrations.wolfram.com/javascript/embed.js' ></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			{% for w in page.wolfram %}
+				(new DEMOEMBED()).run('{{w}}', '', '543', '545');
+			{% endfor %}
+		})
+	</script>
+{% endif %}
+
+{% if page.geogebratube.size > 0 %}
+	<script type='text/javascript' src='http://www.geogebratube.org/scripts/deployggb.js' ></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			{% for g in page.geogebratube %}
+			(new GGBApplet({material_id: "{{g}}", borderColor:"#FFFFFF"}, true))
+				.inject('applet_container{{g}}', 'preferHTML5');
+			{% endfor %}
+		})
+	</script>
+{% endif %}
+
 </head>
