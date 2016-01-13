@@ -27,11 +27,12 @@ map:
         es: Geometría clásica
         en: Classical geometry
         class: geocla
-      -
-        es: UP - Triángulos
-        en: UP - Triangles
-        category: triangles
-        class: triangles
+        childrens:
+          -
+            es: Triángulos
+            en: Triangles
+            category: triangles
+            class: triangles
       -
         es: Cónicas
         en: Conics
@@ -52,11 +53,12 @@ map:
         es: Geometría hiperbólica
         en: Hyperbolic geometry
         class: geohiper
-      -
-        es: UP - Transformaciones hiperbólicas
-        en: UP - Hyperbolic transformations
-        category: geohiper_trans
-        class: geohiper_trans
+        childrens:
+          -
+            es: Transformaciones hiperbólicas
+            en: Hyperbolic transformations
+            category: geohiper_trans
+            class: geohiper_trans
       -
         es: Geometría fractal
         en: Fractal geometry
@@ -199,11 +201,12 @@ map:
         es: Física
         en: Physics
         class: fis
-      -
-        es: UP - Mecánica Cuántica
-        en: UP - Quantum Mechanics
-        category: quant_mech
-        class: quant_mech
+        childrens:
+          -
+            es: Mecánica Cuántica
+            en: Quantum Mechanics
+            category: quant_mech
+            class: quant_mech
       -
         es: Economía
         en: Economy
@@ -239,11 +242,12 @@ map:
         en: Functional analysis
         category: functional_analysis
         class: anfun
-      -
-        es: UP - Espacios de Funciones
-        en: UP - Function Spaces
-        category: function_spaces
-        class: funcspa
+        childrens:
+          -
+            es: Espacios de Funciones
+            en: Function Spaces
+            category: function_spaces
+            class: funcspa
       -
         es: Topología algebraica
         en: Algebraic topology
@@ -271,11 +275,12 @@ map:
         es: Teoría de Lie
         en: Lie Theory
         class: teolie
-      -
-        es: UP - Sistemas de raíces
-        en: UP - Root systems
-        category: root_systems
-        class: root_systems
+        childrens:
+          -
+            es: Sistemas de raíces
+            en: Root systems
+            category: root_systems
+            class: root_systems
       -
         es: Fibrados
         en: Bundles

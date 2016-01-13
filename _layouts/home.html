@@ -30,6 +30,26 @@ layout: default
 				{% else %}
 					{{ ct2[page.lang] }}
 				{% endif %}
+				
+
+				{% if ct2.childrens.size > 0  %}
+					<ul class="{{ ct2.class }}">
+					{% for ct3 in ct2.childrens %}
+						{% assign t3 = ct3.pages | where:"lang", page.lang %}
+						  <li class="{{ ct3.class }}">
+							{% if t3.size == 1  %}
+								<a href="{{ t3[0].cleanurl }}">
+									{{ t3[0].title }}
+								</a>
+							{% else %}
+								{{ ct3[page.lang] }}
+							{% endif %}
+						  </li>
+					{% endfor %}
+					</ul>
+				{% endif %}
+				
+				
 			  </li>
 		{% endfor %}
 	    </ul>
