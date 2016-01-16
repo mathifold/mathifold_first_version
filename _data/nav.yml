@@ -14,10 +14,22 @@ map:
         es: Números complejos
         en: Complex numbers
         class: numcomp
+        childrens:
+          -
+            es: Operaciones con números complejos
+            en: Operations with complex numbers
+            category: operations_complex_numbers
+            class: operations_complex_numbers
       -
         es: Trigonometría
         en: Trigonometry
         class: trigo
+        childrens:
+          -
+            es: Funciones trigonométricas
+            en: Trigonometric functions
+            category: trigonometric_functions
+            class: trigonometric_functions
   -
     es: Geometría
     en: Geometry
@@ -63,6 +75,12 @@ map:
         es: Geometría fractal
         en: Fractal geometry
         class: geofractal
+        childrens:
+          -
+            es: Conjuntos de Mandelbrot y Julia
+            en: Mandelbrot and Julia sets
+            category: mandelbrot_julia
+            class: mandelbrot_julia
       -
         es: Topología
         en: Topology
@@ -101,6 +119,22 @@ map:
         es: Análisis real
         en: Real analysis
         class: anreal
+        childrens:
+          -
+            es: Series
+            en: Series
+            category: series
+            class: series
+          -
+            es: Funciones especiales
+            en: Special functions
+            category: special_functions
+            class: special_functions
+          -
+            es: Derivadas
+            en: Derivatives
+            category: derivatives
+            class: derivatives
       -
         es: Cálculo diferencial
         en: Differential calculus
@@ -155,10 +189,22 @@ map:
         es: Análisis numérico
         en: Numerical analysis
         class: numan
+        childrens:
+          -
+            es: Aproximación numérica de raíces
+            en: Numerical approximation of roots
+            category: numeric_roots
+            class: numeric_roots
       -
         es: Programación lineal
         en: Linear programming
         class: proglin
+        childrens:
+          -
+            es: Introducción al problema lineal
+            en: Introduction to the linear problem
+            category: intro_lin_prob
+            class: intro_lin_prob
       -
         es: Programación entera
         en: Integer programming
@@ -203,6 +249,11 @@ map:
         class: fis
         childrens:
           -
+            es: Relatividad
+            en: Relativity
+            category: relativity
+            class: relativity
+          -
             es: Mecánica Cuántica
             en: Quantum Mechanics
             category: quant_mech
@@ -221,13 +272,15 @@ map:
         en: Dynamical Systems
         class: sisdin
       -
-        es: Ecuaciones diferenciales ordinarias
-        en: Ordinary Differential Equations
-        class: ecuadiford
-      -
         es: Ecuaciones diferenciales
-        en: Differential equations
-        class: ecudif
+        en: Differential Equations
+        class: ecuadif
+        childrens:
+          -
+            es: Introducción a las EDOs
+            en: Introduction to ODEs
+            category: intro_odes
+            class: intro_odes
       -
         es: Ecuaciones en derivadas parciales
         en: Partial Differential Equations
@@ -248,6 +301,11 @@ map:
             en: Function Spaces
             category: function_spaces
             class: funcspa
+          -
+            es: Transformada de Fourier
+            en: Fourier transform
+            category: fourier_transform
+            class: fourier_transform
       -
         es: Topología algebraica
         en: Algebraic topology
@@ -262,6 +320,12 @@ map:
         es: Geometría Riemanniana
         en: Riemannian geometry
         class: georie
+        childrens:
+          -
+            es: Curvas y superficies
+            en: Curves and surfaces
+            category: curves_surfaces
+            class: curves_surfaces
   -
     es: Matemáticas puras II
     en: Pure mathematics
