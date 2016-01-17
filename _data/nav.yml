@@ -7,19 +7,59 @@ map:
     class: mb
     childrens:
       - 
+        es: Formas básicas
+        en: Basic shapes
+        class: shapes
+        childrens:
+          -
+            es: Círculos - introducción
+            en: Circles- introduction
+            category: basic_circles
+            class: basic_circles
+          -
+            es: Polígonos
+            en: Polygons
+            category: polygons
+            class: polygons
+          -
+            es: Geometría plana
+            en: Plane geometry
+            category: plane_geometry
+            class: plane_geometry
+          -
+            es: Poliedros
+            en: Polyhedra
+            category: polyhedra
+            class: polyhedra
+      - 
         es: Combinatoria
         en: Combinatorics
         class: comb
-      -
-        es: Números complejos
-        en: Complex numbers
-        class: numcomp
+      - 
+        es: Teoría de números
+        en: Number theory
+        class: number_theory
         childrens:
           -
-            es: Operaciones con números complejos
-            en: Operations with complex numbers
-            category: operations_complex_numbers
-            class: operations_complex_numbers
+            es: Números primos y factorización
+            en: Prime numbers and factorisation
+            category: prime_factorisation
+            class: prime_factorisation
+          -
+            es: Sumas
+            en: Sumes
+            category: sums
+            class: sums
+      - 
+        es: Funciones básicas
+        en: Basic functions
+        class: basic_functions
+        childrens:
+          -
+            es: Funciones lineales
+            en: Linear functions
+            category: linear_functions
+            class: linear_functions
       -
         es: Trigonometría
         en: Trigonometry
@@ -30,6 +70,21 @@ map:
             en: Trigonometric functions
             category: trigonometric_functions
             class: trigonometric_functions
+          -
+            es: Regla del coseno
+            en: Cosine rule
+            category: cosine_rule
+            class: cosine_rule
+      -
+        es: Números complejos
+        en: Complex numbers
+        class: numcomp
+        childrens:
+          -
+            es: Operaciones con números complejos
+            en: Operations with complex numbers
+            category: operations_complex_numbers
+            class: operations_complex_numbers
   -
     es: Geometría
     en: Geometry
@@ -45,6 +100,11 @@ map:
             en: Triangles
             category: triangles
             class: triangles
+          -
+            es: Círculos
+            en: Circles
+            category: circles
+            class: circles
       -
         es: Cónicas
         en: Conics
@@ -57,6 +117,12 @@ map:
         es: Geometría esférica
         en: Spherical geometry
         class: geoesfe
+        childrens:
+          -
+            es: Sólidos platónicos
+            en: Platonic solids
+            category: platonic_solids
+            class: platonic_solids
       -
         es: La cuarta dimensión
         en: The fourth dimension
@@ -98,6 +164,12 @@ map:
         es: Teoría de grupos
         en: Group Theory
         class: teogrup
+        childrens:
+          -
+            es: Grupos cristalográficos
+            en: Wallpaper groups
+            category: wallpaper
+            class: wallpaper
       -
         es: Teoría de anillos
         en: Ring theory
@@ -160,6 +232,12 @@ map:
         es: Cálculo de probabilidad
         en: Probability calculation
         class: calprob
+        childrens:
+          -
+            es: Distribuciones
+            en: Distributions
+            category: distributions
+            class: distributions
       -
         es: Inferencia estadística
         en: Statistical inference
@@ -248,6 +326,16 @@ map:
         en: Physics
         class: fis
         childrens:
+          -
+            es: Mecánica
+            en: Mechanics
+            category: mechanics
+            class: mechanics
+          -
+            es: Electromagnetismo
+            en: Electromagnetism
+            category: electromagnetism
+            class: electromagnetism
           -
             es: Relatividad
             en: Relativity
