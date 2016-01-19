@@ -127,6 +127,22 @@ map:
         es: La cuarta dimensión
         en: The fourth dimension
         class: cuartadim
+        childrens:
+          -
+            es: La cuarta dimensión - intro
+            en: The fourth dimension - intro
+            category: fourintro
+            class: fourintro
+          -
+            es: El hipercubo
+            en: The hypercube
+            category: hypercube
+            class: hypercube
+          -
+            es: Dimensiones superiores
+            en: Higher dimensions
+            category: higher_dimensions
+            class: higher_dimensions
       -
         es: Geometría hiperbólica
         en: Hyperbolic geometry
