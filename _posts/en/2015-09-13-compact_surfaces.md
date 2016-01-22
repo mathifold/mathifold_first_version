@@ -1,6 +1,6 @@
 ---
 title:  "Compact surfaces"
-categories: c1
+categories: compact_surfaces
 langid: compactsurfaces
 mathjax: true
 ---

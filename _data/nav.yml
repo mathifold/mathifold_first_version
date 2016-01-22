@@ -235,6 +235,12 @@ map:
         es: Análisis complejo
         en: Complex analysis
         class: ancomp
+        childrens:
+          -
+            es: Funciones complejas especiales
+            en: Special complex functions
+            category: special_complex_functions
+            class: special_complex_functions
       -
         es: Teoría de la medida
         en: Measure theory
@@ -413,11 +419,41 @@ map:
       -
         es: Topología algebraica
         en: Algebraic topology
-        category: c1
         class: topalg
+        childrens:
+          -
+            es: Superficies compactas
+            en: Compact surfaces
+            category: compact_surfaces
+            class: compact_surfaces
+          -
+            es: Grupo fundamental
+            en: Fundamental group
+            category: fundamental_group
+            class: fundamental_group
+          -
+            es: Recubridores
+            en: Coverings
+            category: coverings
+            class: coverings
+          -
+            es: Homología
+            en: Homology
+            category: homology
+            class: homology
+          -
+            es: Cohomología
+            en: Cohomology
+            category: cohomology
+            class: cohomology
+          -
+            es: Teoría de homotopía
+            en: Homotopy theory
+            category: homotopy_theory
+            class: homotopy_theory
       -
-        es: Variedades
-        en: Manifolds
+        es: Variedades diferenciables
+        en: Differentiable manifolds
         category: c2
         class: vardif
       -
