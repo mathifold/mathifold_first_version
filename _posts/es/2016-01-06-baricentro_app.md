@@ -8,3 +8,4 @@ geogebratube:
 ---
 
 <div style="height: 600px;" id="applet_container1334087"></div>
+

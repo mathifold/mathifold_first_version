@@ -5,5 +5,5 @@ set -e
 jekyll build
 
 #~/source/google/google_appengine/appcfg.py --oauth2 update .
-~/source/google/google_appengine/appcfg.py update .
+~/wks/source/google/google_appengine/appcfg.py update .
 
