@@ -109,15 +109,37 @@ map:
         es: Cónicas
         en: Conics
         class: coni
+        childrens:
+          -
+            es: Introducción - cónicas
+            en: Introduction - conics
+            category: intro_conics
+            class: intro_conics
       -
         es: Geometría afín y proyectiva
         en: Affine and projective geometry
         class: geoafin
+        childrens:
+          -
+            es: Homografías
+            en: Homographies
+            category: homographies
+            class: homographies
       -
         es: Geometría esférica
         en: Spherical geometry
         class: geoesfe
         childrens:
+          -
+            es: La proyección estereográfica
+            en: The stereographic projection
+            category: stereographic_projection
+            class: stereographic_projection
+          -
+            es: Exceso esférico
+            en: Spherical excess
+            category: spherical_excess
+            class: spherical_excess
           -
             es: Sólidos platónicos
             en: Platonic solids
@@ -231,6 +253,12 @@ map:
         es: Cálculo integral
         en: Integral calculus
         class: calint
+        childrens:
+          -
+            es: Ejemplos de cálculo integral
+            en: Examples of integral calculus
+            category: examples_integral_calculus
+            class: examples_integral_calculus
       -
         es: Análisis complejo
         en: Complex analysis
