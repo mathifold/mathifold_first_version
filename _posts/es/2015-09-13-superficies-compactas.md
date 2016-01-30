@@ -218,7 +218,7 @@ cerca posible. En consecuencia tenemos cuatro lados que parecen de un toro... y 
 
 {% resource 25.png %}
 
-De nuevo repitiendo el proceso, separamos los toros hasta que no quede nada. por tanto hemos obtenido:
+De nuevo repitiendo el proceso, separamos los toros hasta que no quede nada. Por tanto hemos obtenido:
 nuestra superficie es una esfera, o una suma conexa de planos proyectivos, o una suma conexa de toros,
 o una suma conexa de planos proyectivos y toros que, como sabemos, vuelve a ser una suma conexa de planos
 proyectivos. Así que por fin, podemos concluir que nuestra clasificación es cierta.

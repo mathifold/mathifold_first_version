@@ -284,8 +284,8 @@ map:
         class: calprob
         childrens:
           -
-            es: Distribuciones
-            en: Distributions
+            es: Distribuciones de probabilidad
+            en: Probability distributions
             category: distributions
             class: distributions
       -
@@ -482,8 +482,43 @@ map:
       -
         es: Variedades diferenciables
         en: Differentiable manifolds
-        category: c2
         class: vardif
+        childrens:
+          -
+            es: Introducción - variedades diferenciables
+            en: Introduction - differentiable manifolds
+            category: intro_differentiable_manifolds
+            class: intro_differentiable_manifolds
+          -
+            es: Espacio tangente
+            en: Tangent space
+            category: tangent_space
+            class: tangent_space
+          -
+            es: Campos vectoriales
+            en: Vector fields
+            category: vector_fields
+            class: vector_fields
+          -
+            es: Tensores y formas
+            en: Tensors and forms
+            category: tensors_forms
+            class: tensors_forms
+          -
+            es: Integración en variedades
+            en: Integration in manifolds
+            category: integration_manifolds
+            class: integration_manifolds
+          -
+            es: Cohomología de De Rham
+            en: De Rham cohomology
+            category: de_rham_cohomology
+            class: de_rham_cohomology
+          -
+            es: Distribuciones en variedades
+            en: Distributions in manifolds
+            category: distributions_manifolds
+            class: distributions_manifolds
       -
         es: Geometría Riemanniana
         en: Riemannian geometry

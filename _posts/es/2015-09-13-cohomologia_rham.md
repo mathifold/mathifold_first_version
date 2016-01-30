@@ -1,6 +1,6 @@
 ---
 title:  "Idea de la Cohomología de De Rham"
-categories: c2
+categories: de_rham_cohomology
 langid: rham
 mathjax: true
 ---
