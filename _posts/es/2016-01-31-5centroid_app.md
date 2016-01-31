@@ -1,5 +1,5 @@
 ---
-title:  "Baricentro"
+title:  "Baricentro - applet"
 categories: triangles
 langid: centroid_app
 mathjax: false
