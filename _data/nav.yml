@@ -121,6 +121,11 @@ map:
         class: geoafin
         childrens:
           -
+            es: Geometría proyectiva informal
+            en: Informal projective geometry
+            category: informal_projective_geometry
+            class: informal_projective_geometry
+          -
             es: Homografías
             en: Homographies
             category: homographies
