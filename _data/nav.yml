@@ -264,6 +264,11 @@ map:
             en: Examples of integral calculus
             category: examples_integral_calculus
             class: examples_integral_calculus
+          -
+            es: Parametrización de regiones
+            en: Region parametrization
+            category: region_parametrization
+            class: region_parametrization
       -
         es: Análisis complejo
         en: Complex analysis
