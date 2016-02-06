@@ -557,6 +557,12 @@ map:
         es: Fibrados
         en: Bundles
         class: fib
+        childrens:
+          -
+            es: Introducción a los fibrados
+            en: Introduction to bundles
+            category: intro_bundles
+            class: intro_bundles
       -
         es: Teoría de haces
         en: Sheaf theory
