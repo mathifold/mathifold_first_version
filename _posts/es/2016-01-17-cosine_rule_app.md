@@ -1,5 +1,5 @@
 ---
-title:  "Regla del coseno"
+title:  "Regla del coseno - demostración"
 categories: cosine_rule
 langid: cosine_rule_app
 mathjax: false

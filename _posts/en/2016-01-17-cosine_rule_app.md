@@ -1,5 +1,5 @@
 ---
-title:  "Cosine rule"
+title:  "Cosine rule - proof"
 categories: cosine_rule
 langid: cosine_rule_app
 mathjax: false

@@ -35,6 +35,12 @@ map:
         es: Combinatoria
         en: Combinatorics
         class: comb
+        childrens:
+          -
+            es: Sumas
+            en: Sums
+            category: sums
+            class: sums
       - 
         es: Teoría de números
         en: Number theory
@@ -46,10 +52,15 @@ map:
             category: prime_factorisation
             class: prime_factorisation
           -
-            es: Sumas
-            en: Sumes
-            category: sums
-            class: sums
+            es: Números especiales
+            en: Special numbers
+            category: special_numbers
+            class: special_numbers
+          -
+            es: Fracciones continuas
+            en: Continuous fractions
+            category: continuous_fractions
+            class: continuous_fractions
       - 
         es: Funciones básicas
         en: Basic functions
@@ -186,6 +197,11 @@ map:
         class: geofractal
         childrens:
           -
+            es: Fractales
+            en: Fractals
+            category: fractal
+            class: fractal
+          -
             es: Conjuntos de Mandelbrot y Julia
             en: Mandelbrot and Julia sets
             category: mandelbrot_julia
@@ -283,6 +299,12 @@ map:
         es: Teoría de la medida
         en: Measure theory
         class: teomed
+        childrens:
+          -
+            es: Medida de Lebesgue
+            en: Lebesgue measure
+            category: lebesgue_measure
+            class: lebesgue_measure
   -
     es: Probabilidad y estadística
     en: Probability and statistics
