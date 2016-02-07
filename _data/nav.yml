@@ -27,6 +27,11 @@ map:
             category: plane_geometry
             class: plane_geometry
           -
+            es: Esferas
+            en: Spheres
+            category: spheres
+            class: spheres
+          -
             es: Poliedros
             en: Polyhedra
             category: polyhedra
@@ -290,6 +295,11 @@ map:
         en: Complex analysis
         class: ancomp
         childrens:
+          -
+            es: Funciones holomorfas
+            en: Holomorphic functions
+            category: holomorphic_functions
+            class: holomorphic_functions
           -
             es: Funciones complejas especiales
             en: Special complex functions
