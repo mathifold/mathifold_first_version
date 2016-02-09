@@ -577,6 +577,16 @@ map:
     class: matpur2
     childrens:
       -
+        es: Teoría analítica de números
+        en: Analytic number theory
+        class: analytic_number_theory
+        childrens:
+          -
+            es: Introducción - Teoría analítica de números
+            en: Introduction - Analytic number theory
+            category: intro_ant
+            class: intro_ant
+      -
         es: Variedades complejas
         en: Complex manifolds
         class: varcomp
