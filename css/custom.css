@@ -139,3 +139,765 @@ header.site-header {
   filter: none;
   -webkit-filter: grayscale(0);
 }
+
+/*-------------------------------------*/
+
+div.home li.mb:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/mb.jpg") no-repeat 0 0;
+    background-size: 100%;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.geo:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/geo.jpg") no-repeat 0 0;
+    background-size: 100%;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.alge:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/alge.jpg") no-repeat 0 0;
+    background-size: 100%;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.an:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/an.jpg") no-repeat 0 0;
+    background-size: 100%;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.propesta:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/propesta.jpg") no-repeat 0 0;
+    background-size: 100%;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.invope:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/invope.jpg") no-repeat 0 0;
+    background-size: 100%;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.fun:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/fun.jpg") no-repeat 0 0;
+    background-size: 100%;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.modmat:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/modmat.jpg") no-repeat 0 0;
+    background-size: 100%;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.evoeq:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/evoeq.jpg") no-repeat 0 0;
+    background-size: 100%;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.matpur1:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/matpur1.jpg") no-repeat 0 0;
+    background-size: 100%;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.matpur2:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/matpur2.jpg") no-repeat 0 0;
+    background-size: 100%;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.probres:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/probres.jpg") no-repeat 0 0;
+    background-size: 100%;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.histmath:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/histmath.jpg") no-repeat 0 0;
+    background-size: 100%;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+
+
+
+
+
+
+
+div.home li.comb:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/comb.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.number_theory:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/number_theory.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.trigo:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/trigo.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.numcomp:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/numcomp.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.geocla:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/geocla.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.coni:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/coni.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.geoafin:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/geoafin.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.geoesfe:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/geoesfe.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.cuartadim:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/cuartadim.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.geohiper:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/geohiper.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.geofractal:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/geofractal.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.topo:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/topo.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.algelineal:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/algelineal.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.teogrup:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/teogrup.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.teoani:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/teoani.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.teogal:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/teogal.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.algeconmu:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/algeconmu.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.anreal:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/anreal.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.caldif:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/caldif.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.calint:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/calint.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.ancomp:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/ancomp.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.calprob:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/calprob.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.teograf:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/teograf.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.numan:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/numan.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.proglin:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/proglin.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.teocon:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/teocon.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.log:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/log.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.cat:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/cat.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.fis:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/fis.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.infor:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/infor.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.eco:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/eco.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.sisdin:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/sisdin.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.ecuadif:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/ecuadif.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.ecuderi:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/ecuderi.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.geoalg:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/geoalg.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.anfun:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/anfun.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.topalg:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/topalg.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.vardif:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/vardif.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.georie:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/georie.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.algebraic_number_theory:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/algebraic_number_theory.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.analytic_number_theory:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/analytic_number_theory.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.varcomp:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/varcomp.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.teolie:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/teolie.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.fib:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/fib.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.teomed:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/blank.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.teohaces:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/teohaces.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.orbi:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/orbi.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.shapes:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/blank.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.basic_functions:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/blank.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.infesta:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/blank.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.procesto:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/blank.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.modregre:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/blank.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.anmulti:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/blank.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.prognolin:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/blank.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.opred:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/blank.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+
+div.home li.teojue:before{
+    width: 50px;
+    height: 50px;
+    background: url("/rec/img/ico/contents/blank.jpg") no-repeat 0 0;
+    background-size: 100%;
+    border: 2px solid #000;
+    display: inline-block;
+    content: "";
+    background-position: relative;
+}
+ 
+
+
+
+li {
+   list-style-type: none; 
+}

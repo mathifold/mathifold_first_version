@@ -382,7 +382,7 @@ map:
       -
         es: Programación no lineal
         en: Nonlinear programming
-        class: proglin
+        class: prognolin
       -
         es: Optimización en redes
         en: Network optimization
@@ -439,13 +439,17 @@ map:
             category: quant_mech
             class: quant_mech
       -
+        es: Informática
+        en: Informatics
+        class: infor
+      -
         es: Economía
         en: Economy
         class: eco
   -
-    es: Matemáticas aplicadas
-    en: Applied mathematics
-    class: matapli
+    es: Ecuaciones evolutivas
+    en: Evolutive equations
+    class: evoeq
     childrens:
       -
         es: Sistemas dinámicos
@@ -470,6 +474,10 @@ map:
     en: Pure mathematics I
     class: matpur1
     childrens:
+      -
+        es: Geometría algebraica
+        en: Algebraic geometry
+        class: geoalg
       -
         es: Análisis funcional
         en: Functional analysis
@@ -577,6 +585,10 @@ map:
     class: matpur2
     childrens:
       -
+        es: Teoría algebraica de números
+        en: Algebraic number theory
+        class: algebraic_number_theory
+      -
         es: Teoría analítica de números
         en: Analytic number theory
         class: analytic_number_theory
@@ -618,3 +630,11 @@ map:
         es: Orbifolds
         en: Orbifolds
         class: orbi
+  -
+    es: Resolución de problemas
+    en: Problem resolution
+    class: probres
+  -
+    es: Historia de las matemáticas
+    en: History of mathematics
+    class: histmath
