@@ -455,6 +455,12 @@ map:
         es: Sistemas dinámicos
         en: Dynamical Systems
         class: sisdin
+        childrens:
+          -
+            es: Sistemas dinámicos unidimensionales
+            en: One-dimensional dynamic systems
+            category: one_dim_dyn_sys
+            class: one_dim_dyn_sys
       -
         es: Ecuaciones diferenciales
         en: Differential Equations
