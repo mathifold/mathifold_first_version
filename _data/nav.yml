@@ -52,15 +52,35 @@ map:
         class: number_theory
         childrens:
           -
-            es: Números primos y factorización
-            en: Prime numbers and factorisation
+            es: Divisibilidad y factorización
+            en: Divisibility and factorisation
             category: prime_factorisation
             class: prime_factorisation
           -
-            es: Números especiales
-            en: Special numbers
-            category: special_numbers
-            class: special_numbers
+            es: Congruencias
+            en: Congruences
+            category: congruences
+            class: congruences
+          -
+            es: Funciones aritméticas
+            en: Arithmetic functions
+            category: arithmetic_functions
+            class: arithmetic_functions
+          -
+            es: Raíces primitivas
+            en: Primitive roots
+            category: primitive_roots
+            class: primitive_roots
+          -
+            es: Congruencias cuadráticas
+            en: Cuadratic congruences
+            category: cuadratic_congruences
+            class: cuadratic_congruences
+          -
+            es: Ecuaciones diofánticas
+            en: Diophantine equations
+            category: diophantine_equations
+            class: diophantine_equations
           -
             es: Fracciones continuas
             en: Continuous fractions
@@ -256,6 +276,11 @@ map:
         en: Real analysis
         class: anreal
         childrens:
+          -
+            es: Números especiales
+            en: Special numbers
+            category: special_numbers
+            class: special_numbers
           -
             es: Series
             en: Series
