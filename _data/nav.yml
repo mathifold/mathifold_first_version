@@ -639,6 +639,11 @@ map:
         class: teolie
         childrens:
           -
+            es: Representación de grupos
+            en: Representations of groups
+            category: representations_groups
+            class: representations_groups
+          -
             es: Sistemas de raíces
             en: Root systems
             category: root_systems
