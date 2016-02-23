@@ -657,6 +657,12 @@ map:
         es: Teoría de haces
         en: Sheaf theory
         class: teohaces
+        childrens:
+          -
+            es: Espacio étalé
+            en: Étalé space
+            category: etale_space
+            class: etale_space
       -
         es: Orbifolds
         en: Orbifolds
