@@ -528,6 +528,7 @@ map:
       -
         es: Topología algebraica
         en: Algebraic topology
+        category: topalg
         class: topalg
         childrens:
           -
