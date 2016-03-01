@@ -1,5 +1,5 @@
 ---
-title:  "Topología Algebraica - Galería de imágenes"
+title:  "Algebraic Topology - Picture Gallery"
 categories: topalg
 langid: topalg_gallery
 mathjax: true
