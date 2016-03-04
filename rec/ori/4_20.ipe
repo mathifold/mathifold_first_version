@@ -1,0 +1,1290 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70107" creator="Ipe 7.1.8">
+<info created="D:20130626142541" modified="D:20160304172357"/>
+<ipestyle name="basic">
+<symbol name="arrow/arc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/farc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="mark/circle(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</symbol>
+<symbol name="mark/disk(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+</path>
+</symbol>
+<symbol name="mark/fdisk(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+0.5 0 0 0.5 0 0 e
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</group>
+</symbol>
+<symbol name="mark/box(sx)" transformations="translations">
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</symbol>
+<symbol name="mark/square(sx)" transformations="translations">
+<path fill="sym-stroke">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+</path>
+</symbol>
+<symbol name="mark/fsquare(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+-0.5 -0.5 m
+0.5 -0.5 l
+0.5 0.5 l
+-0.5 0.5 l
+h
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="mark/cross(sx)" transformations="translations">
+<group>
+<path fill="sym-stroke">
+-0.43 -0.57 m
+0.57 0.43 l
+0.43 0.57 l
+-0.57 -0.43 l
+h
+</path>
+<path fill="sym-stroke">
+-0.43 0.57 m
+0.57 -0.43 l
+0.43 -0.57 l
+-0.57 0.43 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/fnormal(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/pointed(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fpointed(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/linear(spx)">
+<path stroke="sym-stroke" pen="sym-pen">
+-1 0.333 m
+0 0 l
+-1 -0.333 l
+</path>
+</symbol>
+<symbol name="arrow/fdouble(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/double(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<pen name="heavier" value="0.8"/>
+<pen name="fat" value="1.2"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<arrowsize name="large" value="10"/>
+<arrowsize name="small" value="5"/>
+<arrowsize name="tiny" value="3"/>
+<color name="red" value="1 0 0"/>
+<color name="green" value="0 1 0"/>
+<color name="blue" value="0 0 1"/>
+<color name="yellow" value="1 1 0"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="gray" value="0.745"/>
+<color name="brown" value="0.647 0.165 0.165"/>
+<color name="navy" value="0 0 0.502"/>
+<color name="pink" value="1 0.753 0.796"/>
+<color name="seagreen" value="0.18 0.545 0.341"/>
+<color name="turquoise" value="0.251 0.878 0.816"/>
+<color name="violet" value="0.933 0.51 0.933"/>
+<color name="darkblue" value="0 0 0.545"/>
+<color name="darkcyan" value="0 0.545 0.545"/>
+<color name="darkgray" value="0.663"/>
+<color name="darkgreen" value="0 0.392 0"/>
+<color name="darkmagenta" value="0.545 0 0.545"/>
+<color name="darkorange" value="1 0.549 0"/>
+<color name="darkred" value="0.545 0 0"/>
+<color name="lightblue" value="0.678 0.847 0.902"/>
+<color name="lightcyan" value="0.878 1 1"/>
+<color name="lightgray" value="0.827"/>
+<color name="lightgreen" value="0.565 0.933 0.565"/>
+<color name="lightyellow" value="1 1 0.878"/>
+<dashstyle name="dashed" value="[4] 0"/>
+<dashstyle name="dotted" value="[1 3] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+<textsize name="large" value="\large"/>
+<textsize name="small" value="\small"/>
+<textsize name="tiny" value="\tiny"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<anglesize name="90 deg" value="90"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="22.5 deg" value="22.5"/>
+<tiling name="falling" angle="-60" step="4" width="1"/>
+<tiling name="rising" angle="30" step="4" width="1"/>
+</ipestyle>
+<ipestyle name="prueba">
+<symbol name="arrow/arc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/farc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="mark/circle(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</symbol>
+<symbol name="mark/disk(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+</path>
+</symbol>
+<symbol name="mark/fdisk(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+0.5 0 0 0.5 0 0 e
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</group>
+</symbol>
+<symbol name="mark/box(sx)" transformations="translations">
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</symbol>
+<symbol name="mark/square(sx)" transformations="translations">
+<path fill="sym-stroke">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+</path>
+</symbol>
+<symbol name="mark/fsquare(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+-0.5 -0.5 m
+0.5 -0.5 l
+0.5 0.5 l
+-0.5 0.5 l
+h
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="mark/cross(sx)" transformations="translations">
+<group>
+<path fill="sym-stroke">
+-0.43 -0.57 m
+0.57 0.43 l
+0.43 0.57 l
+-0.57 -0.43 l
+h
+</path>
+<path fill="sym-stroke">
+-0.43 0.57 m
+0.57 -0.43 l
+0.43 -0.57 l
+-0.57 0.43 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/fnormal(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/pointed(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fpointed(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/linear(spx)">
+<path stroke="sym-stroke" pen="sym-pen">
+-1 0.333 m
+0 0 l
+-1 -0.333 l
+</path>
+</symbol>
+<symbol name="arrow/fdouble(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/double(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<pen name="heavier" value="0.8"/>
+<pen name="fat" value="1.2"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<arrowsize name="large" value="10"/>
+<arrowsize name="small" value="5"/>
+<arrowsize name="tiny" value="3"/>
+<color name="red" value="1 0 0"/>
+<color name="green" value="0 1 0"/>
+<color name="blue" value="0 0 1"/>
+<color name="yellow" value="1 1 0"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="gray" value="0.745"/>
+<color name="brown" value="0.647 0.165 0.165"/>
+<color name="navy" value="0 0 0.502"/>
+<color name="pink" value="1 0.753 0.796"/>
+<color name="seagreen" value="0.18 0.545 0.341"/>
+<color name="turquoise" value="0.251 0.878 0.816"/>
+<color name="violet" value="0.933 0.51 0.933"/>
+<color name="darkblue" value="0 0 0.545"/>
+<color name="darkcyan" value="0 0.545 0.545"/>
+<color name="darkgray" value="0.663"/>
+<color name="darkgreen" value="0 0.392 0"/>
+<color name="darkmagenta" value="0.545 0 0.545"/>
+<color name="darkorange" value="1 0.549 0"/>
+<color name="darkred" value="0.545 0 0"/>
+<color name="lightblue" value="0.678 0.847 0.902"/>
+<color name="lightcyan" value="0.878 1 1"/>
+<color name="lightgray" value="0.827"/>
+<color name="lightgreen" value="0.565 0.933 0.565"/>
+<color name="lightyellow" value="1 1 0.878"/>
+<color name="gray7" value="0.87"/>
+<color name="azul" value="0.237 0.659 0.659"/>
+<color name="amarillo" value="0.957 0.969 0.714"/>
+<dashstyle name="dashed" value="[4] 0"/>
+<dashstyle name="dotted" value="[1 3] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+<dashstyle name="medium dashed" value="[8] 0"/>
+<dashstyle name="large dashed" value="[12] 0"/>
+<dashstyle name="Large dashed" value="[16] 0"/>
+<dashstyle name="large dotted" value="[2 4] 0"/>
+<textsize name="large" value="\large"/>
+<textsize name="small" value="\small"/>
+<textsize name="tiny" value="\tiny"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<anglesize name="90 deg" value="90"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="22.5 deg" value="22.5"/>
+<opacity name="10%" value="0.1"/>
+<opacity name="20%" value="0.2"/>
+<opacity name="30%" value="0.3"/>
+<opacity name="40%" value="0.4"/>
+<opacity name="50%" value="0.5"/>
+<opacity name="60%" value="0.6"/>
+<opacity name="70%" value="0.7"/>
+<opacity name="80%" value="0.8"/>
+<opacity name="90%" value="0.9"/>
+<tiling name="falling" angle="-60" step="4" width="1"/>
+<tiling name="rising" angle="30" step="4" width="1"/>
+</ipestyle>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat" cap="1">
+193.911 719.522 m
+318.089 688.478 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat" cap="1">
+193.911 688.478 m
+318.089 719.522 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat" cap="1">
+256 768 m
+256 640 l
+</path>
+<group matrix="1 0 0 1 176 0">
+<path matrix="0.51 0 0 0.51 125.44 325.36" stroke="white" pen="8">
+48 0 0 12 256 664 e
+</path>
+<path matrix="1 0 0 1 0 -80" stroke="white" pen="8" join="0" arrow="normal/small">
+264.985 738.307 m
+267.052 738.539 l
+</path>
+</group>
+<group matrix="1 0 0 1 176 0">
+<path matrix="0.51 0 0 0.51 125.44 325.36" stroke="black" pen="4">
+48 0 0 12 256 664 e
+</path>
+<path matrix="1 0 0 1 0 -80" stroke="black" pen="4" join="0" arrow="normal/small">
+264.985 738.307 m
+267.052 738.539 l
+</path>
+</group>
+<group matrix="1 0 0 1 176 0">
+<path matrix="0.854 0 0 0.854 37.376 78.784" stroke="white" pen="6.8">
+48 0 0 12 256 704 e
+</path>
+<path matrix="1 0 0 1 0 -48" stroke="white" pen="6.8" join="0" arrow="normal/small">
+268.356 718.229 m
+272.291 718.596 l
+</path>
+</group>
+<group matrix="1 0 0 1 176 0">
+<path matrix="0.854 0 0 0.854 37.376 78.784" stroke="black" pen="3.4">
+48 0 0 12 256 704 e
+</path>
+<path matrix="1 0 0 1 0 -48" stroke="black" pen="3.4" join="0" arrow="normal/small">
+268.356 718.229 m
+272.291 718.596 l
+</path>
+</group>
+<group matrix="1 0 0 1 176 0">
+<path matrix="0.986 0 0 0.986 3.584 1.856" stroke="white" pen="5.6">
+48 0 0 12 256 704 e
+</path>
+<path matrix="1 0 0 1 0 -16" stroke="white" pen="5.6" join="0" arrow="normal/small">
+271.998 700.864 m
+274.555 701.115 l
+</path>
+</group>
+<group matrix="1 0 0 1 176 0">
+<path matrix="0.986 0 0 0.986 3.584 1.856" stroke="black" pen="2.8">
+48 0 0 12 256 704 e
+</path>
+<path matrix="1 0 0 1 0 -16" stroke="black" pen="2.8" join="0" arrow="normal/small">
+271.998 700.864 m
+274.555 701.115 l
+</path>
+</group>
+<path matrix="1 0 0 1 176 0" stroke="white" pen="4">
+233.335 709.666 m
+253.698 704.575 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat">
+249.015 702.254 m
+253.501 703.375 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="white" pen="4">
+280.608 710.152 m
+258.295 704.574 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat">
+262.105 702.474 m
+258.456 703.386 l
+</path>
+<group matrix="1 0 0 1 176 0">
+<path stroke="white" pen="4.4">
+47.328 0 0 11.832 256 712 e
+</path>
+<path stroke="white" pen="4.4" join="0" arrow="normal/small">
+271.998 700.864 m
+274.555 701.115 l
+</path>
+</group>
+<group matrix="1 0 0 1 176 0">
+<path stroke="black" pen="2.2">
+47.328 0 0 11.832 256 712 e
+</path>
+<path stroke="black" pen="2.2" join="0" arrow="normal/small">
+271.998 700.864 m
+274.555 701.115 l
+</path>
+</group>
+<group matrix="1 0 0 1 176 0">
+<path matrix="0.854 0 0 0.854 37.376 126.784" stroke="white" pen="3.2">
+48 0 0 12 256 704 e
+</path>
+<path stroke="white" pen="3.2" join="0" arrow="normal/small">
+268.356 718.229 m
+272.291 718.596 l
+</path>
+</group>
+<group matrix="1 0 0 1 176 0">
+<path matrix="0.854 0 0 0.854 37.376 126.784" stroke="black" pen="1.6">
+48 0 0 12 256 704 e
+</path>
+<path stroke="black" pen="1.6" join="0" arrow="normal/small">
+268.356 718.229 m
+272.291 718.596 l
+</path>
+</group>
+<path matrix="0.51 0 0 0.51 301.44 384.96" stroke="white" pen="2">
+48 0 0 12 256 704 e
+</path>
+<path matrix="1 0 0 1 176 0" stroke="white" pen="2" join="0" arrow="normal/small">
+264.985 738.307 m
+267.052 738.539 l
+</path>
+<path matrix="0.51 0 0 0.51 301.44 384.96" stroke="black" pen="1">
+48 0 0 12 256 704 e
+</path>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="1" join="0" arrow="normal/small">
+264.985 738.307 m
+267.052 738.539 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="white" pen="4">
+256 751.773 m
+256 746.879 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat">
+256 753.951 m
+256 744.815 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="white" pen="4">
+256 740.458 m
+256 738.845 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat" cap="0" join="0">
+256 741.082 m
+256 738.871 l
+256 739.012 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="white" pen="4">
+256 725.604 m
+256 721.78 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat">
+256 726.933 m
+256 720.244 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="white" pen="4">
+256 711.174 m
+256 706.384 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat">
+256 712.261 m
+256 706.469 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="white" pen="4">
+256 693.682 m
+256 688.055 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat">
+256 695.309 m
+256 687.362 l
+256 687.362 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="white" pen="4">
+205.658 691.415 m
+215.299 693.825 l
+</path>
+<use matrix="1 0 0 1 176 0" name="mark/fdisk(sfx)" pos="256 704" size="large" stroke="black" fill="white"/>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat">
+202.44 690.61 m
+218.518 694.63 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat">
+282.778 710.694 m
+258.507 704.627 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="white" pen="4">
+296.214 693.947 m
+306.349 691.413 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat">
+293.412 694.647 m
+308.863 690.784 l
+</path>
+<path matrix="1 0 0 1 176 0" stroke="black" pen="ultrafat">
+230.109 710.473 m
+253.698 704.575 l
+</path>
+<path matrix="1 0 0 1 16 0" fill="1 1 0.392" opacity="80%">
+16 0 0 16 256 704 e
+</path>
+<path matrix="1 0 0 1 16 0" fill="1 1 0.392" opacity="40%">
+32 0 0 32 256 704 e
+</path>
+<path matrix="1 0 0 1 16 0" fill="1 1 0.392" opacity="40%">
+48 0 0 48 256 704 e
+</path>
+<path matrix="1 0 0 1 16 0" stroke="black" pen="heavier">
+208.002 704.452 m
+208.476 702.314
+210.538 700.149
+214.826 697.832
+219.107 696.323
+222.841 695.323
+228.445 694.174
+233.2 693.44
+239.323 692.748
+246.463 692.239
+254.504 692.006
+262.332 692.105
+267.89 692.374
+273.464 692.822
+280.778 693.722
+285.287 694.493
+288.975 695.28
+292.855 696.312
+297.287 697.88
+301.539 700.207
+302.481 701.005
+303.53 702.325
+303.973 703.601
+303.995 704.173 s
+</path>
+<path matrix="1 0 0 1 16 0" stroke="black" pen="fat">
+48 0 0 48 256 704 e
+</path>
+<path matrix="1 0 0 1 16 0" stroke="black" dash="dashed" pen="heavier">
+240.001 704.207 m
+240.21 704.646
+240.789 705.24
+242.185 706.018
+243.653 706.544
+246.332 707.187
+248.225 707.496
+250.761 707.779
+253.767 707.961
+256.689 707.996
+259.303 707.914
+263.302 707.559
+266.316 707.057
+269.33 706.212
+270.621 705.625
+271.277 705.189
+271.874 704.501
+272 703.924 s
+</path>
+<path matrix="1 0 0 1 16 0" stroke="black" dash="dashed" pen="heavier">
+224.004 704.128 m
+224.224 704.945
+225.267 706.229
+226.732 707.234
+228.336 708.021
+230.598 708.865
+233.531 709.684
+237.184 710.471
+241.083 711.078
+245.044 711.516
+249.055 711.809
+252.901 711.962
+259.592 711.949
+264.583 711.707
+268.086 711.407
+271.316 711.024
+273.413 710.712
+276.939 710.05
+279.597 709.404
+283.052 708.273
+285.499 707.1
+287.319 705.642
+287.785 704.927
+288 703.961 s
+</path>
+<path matrix="1 0 0 1 16 0" stroke="black" dash="dashed" pen="heavier">
+208.006 704.782 m
+208.298 705.336
+209.172 706.635
+210.702 707.969
+213.325 709.493
+217.079 711.023
+220.946 712.198
+224.723 713.103
+228.004 713.748
+231.826 714.367
+235.74 714.879
+238.19 715.143
+241.821 715.464
+244.04 715.622
+246.503 715.763
+250.343 715.916
+254.202 715.992
+257.826 715.991
+262.491 715.89
+265.94 715.74
+272.528 715.266
+276.294 714.875
+282.933 713.933
+284.868 713.587
+294.066 711.31
+296.662 710.377
+298.433 709.609
+301.199 708.039
+302.756 706.714
+303.646 705.456
+303.994 704.195 s
+</path>
+<path matrix="1 0 0 1 16 0" stroke="black" pen="ultrafat" cap="1">
+256 768 m
+256 640 l
+</path>
+<path matrix="1 0 0 1 16 0" stroke="black" pen="ultrafat" cap="1">
+193.911 719.522 m
+318.089 688.478 l
+</path>
+<path matrix="1 0 0 1 16 0" stroke="black" pen="ultrafat" cap="1">
+193.911 688.478 m
+318.089 719.522 l
+</path>
+<path matrix="1 0 0 1 16 0" stroke="black" pen="heavier">
+240 704.019 m
+240.087 703.585
+240.41 703.101
+240.987 702.617
+242.49 701.857
+244.036 701.344
+246.63 700.758
+249.776 700.315
+253.086 700.067
+256.166 700
+259.42 700.092
+263.247 700.434
+265.804 700.839
+268.523 701.51
+270.366 702.239
+271.593 703.104
+271.889 703.53
+272 704.02 s
+</path>
+<path matrix="1 0 0 1 16 0" stroke="black" pen="fat">
+16 0 0 16 256 704 e
+</path>
+<path matrix="1 0 0 1 16 0" stroke="black" pen="fat">
+32 0 0 32 256 704 e
+</path>
+<path matrix="1 0 0 1 16 0" stroke="black" pen="heavier">
+224 704.026 m
+224.326 702.861
+225.274 701.765
+226.875 700.686
+229.648 699.461
+231.618 698.819
+235.328 697.893
+239.038 697.216
+242.717 696.722
+247.732 696.272
+253.253 696.03
+260.381 696.075
+265.469 696.358
+270.722 696.897
+275.282 697.615
+279.652 698.611
+283.063 699.731
+285.772 701.067
+286.911 701.93
+287.718 702.89
+288 704.024 s
+</path>
+<use matrix="1 0 0 1 16 0" name="mark/fdisk(sfx)" pos="256 704" size="large" stroke="black" fill="1 1 0.392"/>
+<path matrix="0.66969 0 0 0.66969 -199.431 577.856" stroke="black" fill="gray7" pen="ultrafat">
+453.213 281.569
+376.86 250.264
+363.88 128.863
+493.68 70.0714
+583.777 153.296
+511.241 295.312 u
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" stroke="black" fill="amarillo" pen="fat">
+468.272 285.083
+468.272 285.083
+468.272 285.083
+486.48 281.441
+497 273.754
+490.121 265.257
+490.121 265.257
+490.121 265.257
+500.237 251.5
+500.237 239.362
+492.954 228.033
+492.954 228.033
+492.954 228.033
+485.671 235.72
+473.752 240.201
+462.203 241.789
+462.203 241.789
+462.203 241.789
+468.677 249.882
+472.319 268.898 u
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" stroke="black" fill="azul">
+493.719 275.335
+494.784 273.346
+496.138 270.659
+497.862 266.501
+498.847 263.272
+499.508 260.019
+499.908 256.781
+500.133 252.836
+500.122 248.556
+499.875 245.436
+499.875 245.436
+499.875 245.436
+499.672 247.67
+499.034 250.396
+498.011 253.041
+496.903 255.238
+495.501 257.617
+494.206 259.598
+492.388 262.172
+491.447 263.454
+489.986 265.176
+489.986 265.176
+489.986 265.176
+491.635 267.129
+492.861 268.835
+493.684 270.389
+494.085 271.641
+494.162 273.277
+493.759 274.914 u
+</path>
+<path matrix="0.66969 0 0 0.66969 -199.431 577.856" stroke="black" dash="dashed" pen="ultrafat">
+374.621 185.629 m
+375.251 187.18
+375.746 187.981
+376.92 189.297
+378.976 190.896
+382.499 192.849
+385.128 193.992
+390.13 195.755
+396.325 197.474
+408.119 199.9
+417.81 201.346
+428.498 202.528
+445.007 203.682
+456.777 204.077
+470.177 204.127
+484.413 203.716
+498.082 202.841
+504.954 202.202
+514.474 201.059
+525.54 199.265
+536.444 196.793
+544.414 194.227
+549.932 191.655
+552.78 189.689
+554.537 187.772
+555.287 186.138 s
+</path>
+<path matrix="0.66969 0 0 0.66969 -197.336 581.58" stroke="gray7" pen="4">
+406.236 218.062
+393.378 208.679
+405.541 187.132
+394.073 166.975
+415.62 154.117
+437.514 172.883 u
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" stroke="black" fill="gray7">
+436.443 231.124 m
+462.203 241.789 l
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" stroke="black" fill="0.459" opacity="50%">
+436.443 231.124
+436.443 231.124
+436.443 231.124
+462.386 241.764
+462.386 241.764
+462.386 241.764
+468.903 240.782
+475.002 239.397
+478.08 238.416
+481.333 237.101
+486.412 234.15
+489.368 231.69
+491.434 229.636
+492.954 228.033
+492.954 228.033
+492.954 228.033
+438.195 226.283
+438.195 226.283
+438.195 226.283
+437.558 228.517 u
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" stroke="black" fill="0.475" opacity="50%">
+435.546 232.625
+435.546 232.625
+435.546 232.625
+489.841 265.089
+489.841 265.089
+489.841 265.089
+492.604 261.858
+495.502 257.578
+498.272 252.318
+499.75 247.109
+499.797 243.269
+499.113 239.796
+497.56 235.832
+495.81 232.567
+492.954 228.033
+492.954 228.033
+492.954 228.033
+438.333 226.388
+438.333 226.388
+438.333 226.388
+437.164 229.487 u
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" stroke="black" fill="darkgray" opacity="50%">
+432.897 237.535
+432.897 237.535
+432.897 237.535
+468.272 285.083
+468.272 285.083
+468.272 285.083
+474.03 283.917
+481.007 282.185
+485.131 280.793
+488.444 279.276
+491.402 277.254
+493.533 275.005
+494.09 272.186
+493.403 269.889
+491.495 267
+490.373 265.567
+489.708 265.01
+489.814 265.073
+489.814 265.073
+435.546 232.625
+435.546 232.625
+435.546 232.625
+434.414 235.129 u
+</path>
+<path matrix="0.66969 0 0 0.66969 -197.336 581.58" stroke="black" fill="0.921" pen="ultrafat">
+406.236 218.062
+393.378 208.679
+405.541 187.132
+394.073 166.975
+415.62 154.117
+437.514 172.883 u
+</path>
+<path matrix="0.66969 0 0 0.66969 -197.336 581.58" stroke="black" dash="dashed" pen="ultrafat">
+400.75 180.502 m
+400.821 180.832
+400.896 181.187
+402.262 181.506
+403.031 181.769
+405.094 182.263
+408.49 182.736
+414.129 183.002
+419.416 182.783
+423.048 182.314
+426.116 181.521
+427.205 180.981
+427.716 180.473
+427.785 179.965 s
+</path>
+<path matrix="0.66969 0 0 0.66969 -197.336 581.58" stroke="black" pen="ultrafat">
+400.704 180.293 m
+400.95 179.498
+401.743 178.991
+402.455 178.695
+404.586 178.112
+406.771 177.738
+409.533 177.446
+412.314 177.299
+415.281 177.28
+418.489 177.417
+421.423 177.708
+423.616 178.067
+425.441 178.521
+426.358 178.849
+427.095 179.22
+427.788 179.977
+427.81 180.134 s
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" stroke="black">
+432.897 237.535 m
+468.272 285.083 l
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" stroke="black" fill="gray7">
+438.333 226.388 m
+492.954 228.033 l
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" stroke="black" fill="gray7">
+435.546 232.625 m
+490.121 265.257 l
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" stroke="black" pen="fat">
+488.605 279.188 m
+490.784 277.823
+493.719 275.335
+495.644 271.898
+498.924 264.438
+500.257 255.552
+500.156 245.529
+499.166 239.978 s
+</path>
+<path matrix="-0.51645 0 0 0.51645 212.832 637.362" stroke="black" fill="0.227 0.658 0.658" pen="fat">
+182.147 43.5237
+178.47 43.5074
+175.796 43.5002
+172.017 43.5461
+166.151 43.816
+160.761 44.4985
+154.619 46.1221
+150.722 47.6355
+147.028 49.3957
+142.747 51.9678
+139.237 54.7624
+136.788 57.2099
+133.904 60.7274
+131.463 64.4669
+129.642 68.0924
+128.241 71.8562
+127.179 75.8505
+126.23 81.3122
+125.849 84.8762
+126.006 88.8303
+126.65 92.4534
+128.412 97.6221
+130.075 100.832
+132.415 104.163
+135.599 107.275
+137.952 108.728
+141.155 109.566
+143.824 109.111
+145.991 107.732
+148.398 104.619
+149.411 102.607
+150.916 98.7323
+151.952 95.4517
+153.126 91.2207
+154.171 87.1341
+155.127 83.2828
+156.188 79.0561
+157.254 75.007
+158.394 71.0107
+159.69 66.9659
+160.892 63.6976
+162.23 60.5799
+163.646 57.5327
+165.966 54.0663
+167.894 51.5688
+169.567 49.7511
+171.872 47.6948
+173.899 46.2611
+176.34 44.9519
+177.98 44.3121
+180.367 43.714
+181.334 43.5833 u
+</path>
+<path matrix="-0.51645 0 0 0.51645 212.832 637.362" stroke="black" dash="dashed" pen="fat">
+163.646 57.5327 m
+161.045 57.8286
+158.44 58.2178
+154.746 58.9323
+150.553 59.9898
+145.443 61.6864
+141.421 63.4159
+137.505 65.5633
+133.794 68.2576
+131.103 70.9429
+128.782 74.2494
+127.722 76.3694
+126.706 79.238
+126.23 81.3122 s
+</path>
+<path matrix="-0.51645 0 0 0.51645 212.832 637.362" stroke="black" fill="0.956 0.968 0.713" pen="fat">
+163.646 57.5327
+167.828 57.2535
+171.125 57.2125
+175.853 57.4578
+180.582 58.0513
+183.319 58.5317
+186.039 59.0903
+189.431 59.8667
+192.55 60.5995
+196.045 61.2718
+199.441 60.8932
+200.086 59.5393
+199.568 56.6727
+198.091 53.668
+196.371 51.1992
+194.673 49.2591
+192.555 47.3143
+190.614 45.9137
+187.843 44.4844
+185.149 43.7156
+183.105 43.5135
+181.012 43.6196
+178.178 44.2967
+175.767 45.2201
+172.813 46.9878
+169.867 49.5236
+167.727 51.8324
+166.076 53.9836
+163.646 57.5327 u
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" fill="0.455" opacity="50%">
+431.772 218.75
+431.772 218.75
+431.772 218.75
+473.216 165.554
+473.216 165.554
+473.216 165.554
+476.347 162.974
+478.484 161.872
+483.752 161.205
+487.796 162.439
+492.346 165.758
+495.355 169.261
+498.236 174.285
+500.195 179.209
+501.194 182.329
+502.073 185.41
+503.713 191.793
+504.451 194.763
+506.162 201.177
+506.961 203.707
+510.759 210.647
+512.43 211.711
+514.488 212.062
+514.488 212.062
+514.488 212.062
+433.867 225.758
+433.867 225.758
+433.867 225.758
+432.661 225.543
+431.485 224.411
+430.976 223.372
+430.689 221.531
+431.151 219.718 u
+</path>
+<path matrix="0.66969 0 0 0.66969 -199.431 577.856" stroke="gray7" pen="4">
+380.53 178.411 m
+385.509 176.106
+391.728 174.011
+401.844 171.529
+410.609 169.939
+424.184 168.153
+436.305 167.083
+451.057 166.323
+465.599 166.093
+478.325 166.298
+493.546 167.063
+510.177 168.634
+518.112 169.718
+532.127 172.37
+539.604 174.369
+546.649 176.946 s
+</path>
+<path matrix="0.66969 0 0 0.66969 -199.431 577.856" stroke="black" pen="ultrafat">
+374.723 185.047 m
+374.652 183.465
+375.686 182.353
+376.884 180.987
+378.253 179.856
+380.53 178.411
+385.509 176.106
+391.728 174.011
+401.844 171.529
+410.609 169.939
+424.184 168.153
+436.305 167.083
+451.057 166.323
+465.599 166.093
+478.325 166.298
+493.546 167.063
+510.177 168.634
+518.112 169.718
+532.127 172.37
+539.604 174.369
+546.649 176.946
+551.715 179.734
+554.077 181.86
+554.652 182.656
+555.063 183.445
+555.401 184.779 s
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" stroke="black" pen="heavier">
+433.867 225.758 m
+515.153 211.825 l
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" stroke="black" pen="heavier">
+431.772 218.75 m
+472.741 166.116 l
+</path>
+<path matrix="0.66969 0 0 0.66969 -204.615 551.932" stroke="black" pen="heavier">
+435.227 226.085
+431.81 225.891
+429.811 220.926
+433.422 216.284
+436.388 221.12 u
+</path>
+</page>
+</ipe>

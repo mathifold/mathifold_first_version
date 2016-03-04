@@ -2,7 +2,7 @@
 title:  "Algebraic Topology - Picture Gallery"
 categories: topalg
 langid: topalg_gallery
-mathjax: true
+mathjax: false
 ---
 
 

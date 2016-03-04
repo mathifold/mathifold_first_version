@@ -564,6 +564,7 @@ map:
       -
         es: Variedades diferenciables
         en: Differentiable manifolds
+        category: vardif
         class: vardif
         childrens:
           -
