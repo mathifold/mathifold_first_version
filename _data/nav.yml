@@ -235,6 +235,7 @@ map:
         es: Topología
         en: Topology
         class: topo
+        childrens:
           -
             es: Espacios topológicos
             en: Topological spaces
