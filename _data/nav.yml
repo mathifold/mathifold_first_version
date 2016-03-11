@@ -235,6 +235,11 @@ map:
         es: Topología
         en: Topology
         class: topo
+          -
+            es: Espacios topológicos
+            en: Topological spaces
+            category: topological_spaces
+            class: topological_spaces
   -
     es: Álgebra
     en: Algebra
