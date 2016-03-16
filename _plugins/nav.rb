@@ -14,7 +14,6 @@ module Jekyll
       self.data['lang'] = lang
       self.data['title'] = title
       self.data['langid'] = langid
-      self.data['kind'] = kind
       self.data['type'] = 'pages'
       self.data['class']=(_class or "none")
       if cat
