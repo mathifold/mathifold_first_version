@@ -3,22 +3,32 @@ social:
     key: contacto
     url: "mailto:mathifold@gmail.com"
     class: contact
-    ico: "/rec/img/ico/social/mail.png"
-  -
-    key: Youtube
-    url: "https://www.youtube.com/channel/UCXX6SDV-XYDRfUI4_0gd6Lw"
-    class: youtube
-    ico: "/rec/img/ico/social/youtube.png"
-  -
-    key: codigo
-    url: "https://github.com/mathifold"
-    class: github
-    ico: "/rec/img/ico/social/github_a.png"
+    ico: "/rec/img/ico/social/mail.svg"
   -
     key: Google +
     url: "https://plus.google.com/+MathifoldProjectMaths/"
     class: googleplus
-    ico: "/rec/img/ico/social/googleplus.png"
+    ico: "/rec/img/ico/social/google.svg"
+  -
+    key: Facebook
+    url: "https://www.facebook.com/mathifold/"
+    class: facebook
+    ico: "/rec/img/ico/social/facebook.svg"
+  -
+    key: Youtube
+    url: "https://www.youtube.com/channel/UCXX6SDV-XYDRfUI4_0gd6Lw"
+    class: youtube
+    ico: "/rec/img/ico/social/youtube.svg"
+  -
+    key: codigo
+    url: "https://github.com/mathifold"
+    class: github
+    ico: "/rec/img/ico/social/github.svg"
+  -
+    key: Geogebra
+    url: "http://tube.geogebra.org/mathifold"
+    class: geogebra
+    ico: "/rec/img/ico/social/geogebra.svg"
 
 #  -
 #    key: Math Stackexchange
