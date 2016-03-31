@@ -7,5 +7,5 @@ geogebratube:
   - 1334247
 ---
 
-<div style="height: 600px;" id="applet_container1334247"></div>
+<div style="height:600px; width:800px; margin: auto;" id="applet_container1334247"></div>
 
