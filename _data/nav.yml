@@ -73,9 +73,9 @@ map:
             class: primitive_roots
           -
             es: Congruencias cuadráticas
-            en: Cuadratic congruences
-            category: cuadratic_congruences
-            class: cuadratic_congruences
+            en: Quadratic congruences
+            category: quadratic_congruences
+            class: quadratic_congruences
           -
             es: Ecuaciones diofánticas
             en: Diophantine equations
