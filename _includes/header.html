@@ -23,13 +23,13 @@
 		<ul title="{{site.data.t[page.lang].otros}}">
 		{% for l in site.data.nav.langs %}
 			{% if page.lang == l %}
-				<li class="sl"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/rec/img/ico/lang/{{l}}.png"/></li>
+				<li class="sl"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/rec/img/ico/lang/{{l}}.svg"/></li>
 			{% else %}
 				{% assign aux=array | where:"lang", l %}
 				{% if aux[0] %}
-					<li><a href="{{aux[0].cleanurl}}" lang="{{l}}" hreflang="{{l}}" title="{{site.data.t[l].lang}}"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/rec/img/ico/lang/{{l}}.png"/></a></li>
+					<li><a href="{{aux[0].cleanurl}}" lang="{{l}}" hreflang="{{l}}" title="{{site.data.t[l].lang}}"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/rec/img/ico/lang/{{l}}.svg"/></a></li>
 				{% else %}
-					<li class="no"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/rec/img/ico/lang/{{l}}.png"/></li>
+					<li class="no"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/rec/img/ico/lang/{{l}}.svg"/></li>
 				{% endif %}
 			{% endif %}
 		{% endfor %}
