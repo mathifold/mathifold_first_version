@@ -140,6 +140,20 @@ header.site-header {
   -webkit-filter: grayscale(0);
 }
 
+.bluebox {
+  background-color: lightblue;
+    padding: 25px;
+    border: 10px solid blue;
+    margin: 20px 0px 20px 0px ;
+}
+
+.yellowbox {
+  background-color: lightyellow;
+    padding: 25px;
+    border: 10px solid yellow;
+    margin: 20px 0px 20px 0px ;
+}
+
 /*-------------------------------------*/
 
 article.post-content li a.kind['definition']:before{
