@@ -918,10 +918,13 @@ div.home li.teojue:before{
     content: "";
     background-position: relative;
 }
- 
-
-
-
 li {
-   list-style-type: none; 
+   list-style-type: none;
+}
+a.usualfunction {
+    background-image: url("https://www.wireshark.org/docs/wsug_html_chunked/wsug_graphics/note.svg");
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: 16px auto;
+    padding-left: 20px;
 }
