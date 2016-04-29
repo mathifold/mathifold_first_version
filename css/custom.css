@@ -928,3 +928,16 @@ a.usualfunction {
     background-size: 16px auto;
     padding-left: 20px;
 }
+a.not_knot_vid {
+    background-image: url("http://www.janmarini.com/us/img/ico_normal.svg");
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: 16px auto;
+    color: transparent;
+    display: inline-block;
+    height: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 16px;
+
+}
