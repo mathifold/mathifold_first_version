@@ -921,23 +921,16 @@ div.home li.teojue:before{
 li {
    list-style-type: none;
 }
-a.usualfunction {
-    background-image: url("https://www.wireshark.org/docs/wsug_html_chunked/wsug_graphics/note.svg");
+
+a.theorem {
+    background-image: url("/rec/img/ico/symb/theorem.svg");
     background-origin: padding-box;
     background-repeat: no-repeat;
-    background-size: 16px auto;
-    padding-left: 20px;
-}
-a.not_knot_vid {
-    background-image: url("http://www.janmarini.com/us/img/ico_normal.svg");
-    background-origin: padding-box;
-    background-repeat: no-repeat;
-    background-size: 16px auto;
+    background-size: 40px auto;
     color: transparent;
     display: inline-block;
-    height: 16px;
+    height: 40px;
     overflow: hidden;
     white-space: nowrap;
-    width: 16px;
-
+    width: 40px;
 }
