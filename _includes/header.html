@@ -18,11 +18,14 @@
 
     <nav class="lang">
 
-    	<li><a href="/about/">About</a></li>
+    	
 
 		{% assign array=page.translations %}
 
 		<ul title="{{site.data.t[page.lang].otros}}">
+			<li><a href="/plus/about"><img src="/rec/img/ico/plus/about.svg" title="About"/></a></li>
+			<li><a href="/plus/collaborators"><img src="/rec/img/ico/plus/collaborators.svg" title="Collaborators"/></a></li>
+			<li><img src="/rec/img/ico/plus/blank.svg"/></li>
 		{% for l in site.data.nav.langs %}
 			{% if page.lang == l %}
 				<li class="sl"><img alt="{{site.data.t[l].lang}}" title="{{site.data.t[l].lang}}" src="/rec/img/ico/lang/{{l}}.svg"/></li>
